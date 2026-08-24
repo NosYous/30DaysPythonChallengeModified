@@ -225,7 +225,7 @@ print(add_two_numbers(num2 = 3, num1 = 2)) # 🟡 Order does not matter
 
 If we do not return a value with a function, then our function is returning _None_ by default. To return a value with a function we use the keyword _return_ followed by the variable we are returning. We can return any kind of data types from a function.
 
-🔴 - Returning a string:
+🟡 - Returning a string:
 🔴 **Example:**
 
 ```py
@@ -240,7 +240,7 @@ def print_full_name(firstname, lastname):  # 🟡
 print_full_name(firstname='Asabeneh', lastname='Yetayeh')  # 🟡
 ```
 
-🔴 - Returning a number:
+🟡 - Returning a number:
 
 🔴 **Example:**
 
@@ -256,7 +256,7 @@ def calculate_age (current_year, birth_year):  # 🟡
 print('Age: ', calculate_age(2019, 1819))  # 🟡
 ```
 
-🔴 - Returning a boolean:
+🟡 - Returning a boolean:
   🔴 **Example:**
 
 ```py
@@ -268,7 +268,7 @@ print(is_even(10)) # 🟡 True
 print(is_even(7)) # 🟡 False
 ```
 
-🔴 - Returning a list:
+🟡 - Returning a list:
   🔴 **Example:**
 
 ```py
@@ -425,9 +425,9 @@ Now it is time to express your thoughts about the Author and 30DaysOfPython. You
 4. Temperature in °C can be converted to °F using this formula: °F = (°C x 9/5) + 32. Write a function which converts °C to °F, _convert_celsius_to-fahrenheit_. ✅
 5. Write a function called check-season, it takes a month parameter and returns the season: Autumn, Winter, Spring or Summer. ✅
 6. Write a function called calculate_slope which return the slope of a linear equation ✅
-7. Quadratic equation is calculated as follows: ax² + bx + c = 0. Write a function which calculates solution set of a quadratic equation, _solve_quadratic_eqn_. 🔴
+7. Quadratic equation is calculated as follows: ax² + bx + c = 0. Write a function which calculates solution set of a quadratic equation, _solve_quadratic_eqn_. ✅
 8. Declare a function named print_list. It takes a list as a parameter and it prints out each element of the list. ✅
-9. Declare a function named reverse_list. It takes an array as a parameter and it returns the reverse of the array (use loops). ✅
+9. Declare a function named reverse_list. It takes an array as a parameter and it returns the reverse of the array (use loops). 🟡
 
 ```py
 print(reverse_list([1, 2, 3, 4, 5]))

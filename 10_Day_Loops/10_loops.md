@@ -437,7 +437,7 @@ for number in range(6):  # 🟡
    10 x 10 = 100
    ```
 
-6. Iterate through the list, ['Python', 'Numpy','Pandas','Django', 'Flask'] using a for loop and print out the items. 🔴
+6. Iterate through the list, ['Python', 'Numpy','Pandas','Django', 'Flask'] using a for loop and print out the items. ✅
 7. Use for loop to iterate from 0 to 100 and print only even numbers ✅
 8. Use for loop to iterate from 0 to 100 and print only odd numbers ✅
 
@@ -458,11 +458,11 @@ The sum of all numbers is 5050.
 ### Exercises: Level 3
 
 1. Go to the data folder and use the [countries.py](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/data/countries.py) file. Loop through the countries and extract all the countries containing the word _land_. ✅
-1. This is a fruit list, ['banana', 'orange', 'mango', 'lemon'] reverse the order using loop. ✅
+1. This is a fruit list, ['banana', 'orange', 'mango', 'lemon'] reverse the order using loop. 🟡
 1. Go to the data folder and use the [countries_data.py](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/data/countries-data.py) file. ✅
    1. What are the total number of languages in the data ✅
-   2. Find the ten most spoken languages from the data ✅
-   3. Find the 10 most populated countries in the world ✅
+   2. Find the ten most spoken languages from the data 🟡
+   3. Find the 10 most populated countries in the world 🟡
 
 🎉 CONGRATULATIONS ! 🎉
 

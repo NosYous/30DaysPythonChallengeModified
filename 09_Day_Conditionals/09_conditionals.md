@@ -256,7 +256,7 @@ Enter number two: 3
 
 ### Exercises: Level 3
 
-   1. Here we have a person dictionary. Feel free to modify it! 🔴
+   1. Here we have a person dictionary. Feel free to modify it! ✅
 
 ```py
         person={
