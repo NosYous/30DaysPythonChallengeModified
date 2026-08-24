@@ -1,4 +1,4 @@
-> 🔴 **HORS PROGRAMME pour ta filière — jour à sauter.**
+> 🔴 HORS PROGRAMME — ce chapitre entier est hors du programme de ta filière. Lecture par curiosité uniquement ; ne jamais l'utiliser en examen.
 
 <div align="center">
   <h1> 30 Days Of Python: Day 27 - Python with MongoDB </h1>
@@ -44,7 +44,7 @@
 
 Python is a backend technology and it can be connected with different data base applications. It can be connected to both SQL and noSQL databases. In this section, we connect Python with MongoDB database which is noSQL database. 
 
-## 🔴 MongoDB
+## MongoDB
 
 MongoDB is a NoSQL database. MongoDB stores data in a JSON like document which make MongoDB very flexible and scalable. Let us see the different terminologies of SQL and NoSQL databases. The following table will make the difference between SQL versus NoSQL databases.
 
@@ -655,7 +655,7 @@ db.students.drop()
 
 Now, we have deleted the students collection from the database.
 
-## 🔴 💻 Exercises: Day 27
+## 💻 Exercises: Day 27
 
 🎉 CONGRATULATIONS ! 🎉
 

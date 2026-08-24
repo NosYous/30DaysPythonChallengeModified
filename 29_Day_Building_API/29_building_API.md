@@ -1,4 +1,4 @@
-> 🔴 **HORS PROGRAMME pour ta filière — jour à sauter.**
+> 🔴 HORS PROGRAMME — ce chapitre entier est hors du programme de ta filière. Lecture par curiosité uniquement ; ne jamais l'utiliser en examen.
 
 <div align="center">
   <h1> 30 Days Of Python: Day 29 - Building an API </h1>
@@ -30,9 +30,9 @@
   - [Deleting a document using Delete](#deleting-a-document-using-delete)
 - [💻 Exercises: Day 29](#-exercises-day-29)
 
-## 🔴 Day 29
+## Day 29
 
-## 🔴 Building API
+## Building API
 
 
 In this section, we will cove a RESTful API that uses HTTP request methods to GET, PUT, POST and DELETE data.
@@ -496,9 +496,9 @@ if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=port)
 ```
 
-## 🔴 💻 Exercises: Day 29
+## 💻 Exercises: Day 29
 
-🔴 1.Implement the above example and develop [this](https://thirtydayofpython-api.herokuapp.com/)
+🔴 1. Implement the above example and develop [this](https://thirtydayofpython-api.herokuapp.com/)
 
 🎉 CONGRATULATIONS ! 🎉
 

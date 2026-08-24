@@ -1,4 +1,4 @@
-> 🔴 **HORS PROGRAMME pour ta filière — jour à sauter.**
+> 🔴 HORS PROGRAMME — ce chapitre entier est hors du programme de ta filière. Lecture par curiosité uniquement ; ne jamais l'utiliser en examen.
 
 <div align="center">
   <h1> 30 Days Of Python: Day 7 - Sets</h1>
@@ -44,7 +44,7 @@
 
 # 📘 Day 7
 
-## 🔴 Sets
+## Sets
 
 Set is a collection of items. Let me take you back to your elementary or high school Mathematics lesson. The Mathematics definition of a set can be applied also in Python. Set is a collection of unordered and un-indexed distinct elements. In Python set is used to store unique items, and it is possible to find the _union_, _intersection_, _difference_, _symmetric difference_, _subset_, _super set_ and _disjoint set_ among sets.
 
@@ -398,7 +398,7 @@ python.isdisjoint(dragon)  # False, there are common items {'o', 'n'}
 
 🌕 You are a rising star . You have just completed day 7 challenges and you are 7 steps ahead in to your way to greatness. Now do some exercises for your brain and muscles.
 
-## 🔴 💻 Exercises: Day 7
+## 💻 Exercises: Day 7
 
 ```py
 # sets
@@ -410,27 +410,27 @@ age = [22, 19, 24, 25, 26, 24, 25, 24]
 
 ### Exercises: Level 1
 
-🔴 1.Find the length of the set it_companies
-🔴 2.Add 'Twitter' to it_companies
-🔴 3.Insert multiple IT companies at once to the set it_companies
-🔴 4.Remove one of the companies from the set it_companies
-🔴 5.What is the difference between remove and discard
+🔴 1. Find the length of the set it_companies
+🔴 2. Add 'Twitter' to it_companies
+🔴 3. Insert multiple IT companies at once to the set it_companies
+🔴 4. Remove one of the companies from the set it_companies
+🔴 5. What is the difference between remove and discard
 
 ### Exercises: Level 2
 
-🔴 1.Join A and B
-🔴 2.Find A intersection B
-🔴 3.Is A subset of B
-🔴 4.Are A and B disjoint sets
-🔴 5.Join A with B and B with A
-🔴 6.What is the symmetric difference between A and B
-🔴 7.Delete the sets completely
+🔴 1. Join A and B
+🔴 2. Find A intersection B
+🔴 3. Is A subset of B
+🔴 4. Are A and B disjoint sets
+🔴 5. Join A with B and B with A
+🔴 6. What is the symmetric difference between A and B
+🔴 7. Delete the sets completely
 
 ### Exercises: Level 3
 
-🔴 1.Convert the ages to a set and compare the length of the list and the set, which one is bigger?
-🔴 2.Explain the difference between the following data types: string, list, tuple and set
-🔴 3._I am a teacher and I love to inspire and teach people._ How many unique words have been used in the sentence? Use the split methods and set to get the unique words.
+🔴 1. Convert the ages to a set and compare the length of the list and the set, which one is bigger?
+🔴 2. Explain the difference between the following data types: string, list, tuple and set
+🔴 3. _I am a teacher and I love to inspire and teach people._ How many unique words have been used in the sentence? Use the split methods and set to get the unique words.
 
 🎉 CONGRATULATIONS ! 🎉
 

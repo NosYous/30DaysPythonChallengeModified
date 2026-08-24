@@ -1,4 +1,4 @@
-> 🔴 **HORS PROGRAMME pour ta filière — jour à sauter.**
+> 🔴 HORS PROGRAMME — ce chapitre entier est hors du programme de ta filière. Lecture par curiosité uniquement ; ne jamais l'utiliser en examen.
 
 <div align="center">
   <h1> 30 Days Of Python: Day 21 - Classes and Objects</h1>
@@ -37,7 +37,7 @@
 
 # 📘 Day 21
 
-## 🔴 Classes and Objects
+## Classes and Objects
 
 Python is an object oriented programming language. Everything in Python is an object, with its properties and methods. A number, string, list, dictionary, tuple, set etc. used in a program is an object of a corresponding built-in class. We create class to create an object. A class is like an object constructor, or a "blueprint" for creating objects. We instantiate a class to create an object. The class defines attributes and the behavior of the object, while the object, on the other hand, represents the class.
 
@@ -322,11 +322,11 @@ We can use super() built-in function or the parent name Person to automatically 
 
 🌕 Now, you are fully charged with a super power of programming.  Now do some exercises for your brain and muscles.
 
-## 🔴 💻 Exercises: Day 21
+## 💻 Exercises: Day 21
 
 ### Exercises: Level 1
 
-🔴 1.Python has the module called _statistics_ and we can use this module to do all the statistical calculations. However, to learn how to make function and reuse function let us try to develop a program, which calculates the measure of central tendency of a sample (mean, median, mode) and measure of variability (range, variance, standard deviation). In addition to those measures, find the min, max, count, percentile, and frequency distribution of the sample. You can create a class called Statistics and create all the functions that do statistical calculations as methods for the Statistics class. Check the output below.
+🔴 1. Python has the module called _statistics_ and we can use this module to do all the statistical calculations. However, to learn how to make function and reuse function let us try to develop a program, which calculates the measure of central tendency of a sample (mean, median, mode) and measure of variability (range, variance, standard deviation). In addition to those measures, find the min, max, count, percentile, and frequency distribution of the sample. You can create a class called Statistics and create all the functions that do statistical calculations as methods for the Statistics class. Check the output below.
 
 ```py
 ages = [31, 26, 34, 37, 27, 26, 32, 32, 26, 27, 27, 24, 32, 33, 27, 25, 26, 38, 37, 31, 34, 24, 33, 29, 26]
@@ -362,7 +362,7 @@ Frequency Distribution: [(20.0, 26), (16.0, 27), (12.0, 32), (8.0, 37), (8.0, 34
 
 ### Exercises: Level 2
 
-🔴 1.Create a class called PersonAccount. It has firstname, lastname, incomes, expenses properties and it has total_income, total_expense, account_info, add_income, add_expense and account_balance methods. Incomes is a set of incomes and its description. The same goes for expenses. 
+🔴 1. Create a class called PersonAccount. It has firstname, lastname, incomes, expenses properties and it has total_income, total_expense, account_info, add_income, add_expense and account_balance methods. Incomes is a set of incomes and its description. The same goes for expenses. 
 
 🎉 CONGRATULATIONS ! 🎉
 

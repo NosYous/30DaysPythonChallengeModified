@@ -1,4 +1,4 @@
-> 🔴 **HORS PROGRAMME pour ta filière — jour à sauter.**
+> 🔴 HORS PROGRAMME — ce chapitre entier est hors du programme de ta filière. Lecture par curiosité uniquement ; ne jamais l'utiliser en examen.
 
 <div align="center">
   <h1> 30 Days Of Python: Day 18 - Regular Expressions </h1>
@@ -45,7 +45,7 @@
 
 # 📘 Day 18
 
-## 🔴 Regular Expressions
+## Regular Expressions
 
 A regular expression or RegEx is a special text string that helps to find patterns in data. A RegEx can be used to check if some pattern exists in a different data type. To use RegEx in python first we should import the RegEx module which is called *re*.
 
@@ -206,7 +206,7 @@ There is nothing as rewarding as educating and empowering people.
 I found teaching more interesting than any other jobs. Does this motivate you to be a teacher?
 ```
 
-## 🔴 Splitting Text Using RegEx Split
+## Splitting Text Using RegEx Split
 
 ```py
 txt = '''I am teacher and  I love teaching.
@@ -220,7 +220,7 @@ print(re.split('\n', txt)) # splitting using \n - end of line symbol
 ['I am teacher and  I love teaching.', 'There is nothing as rewarding as educating and empowering people.', 'I found teaching more interesting than any other jobs.', 'Does this motivate you to be a teacher?']
 ```
 
-## 🔴 Writing RegEx Patterns
+## Writing RegEx Patterns
 
 To declare a string variable we use a single or double quote. To declare RegEx variable *r''*.
 The following pattern only identifies apple with lowercase, to make it case insensitive either we should rewrite our pattern or we should add a flag.
@@ -388,11 +388,11 @@ matches = re.findall(regex_pattern, txt)
 print(matches)  # ['6,', '2019', '8', '2021']
 ```
 
-## 🔴 💻 Exercises: Day 18
+## 💻 Exercises: Day 18
 
 ### Exercises: Level 1
 
- 🔴 1.What is the most frequent word in the following paragraph?
+ 🔴 1. What is the most frequent word in the following paragraph?
 
 ```py
     paragraph = 'I love teaching. If you do not love teaching what else can you love. I love Python if you do not love something which can give you all the capabilities to develop an application what else can you love.
@@ -425,7 +425,7 @@ print(matches)  # ['6,', '2019', '8', '2021']
     ]
 ```
 
-🔴 2.The position of some particles on the horizontal x-axis are -12, -4, -3 and -1 in the negative direction, 0 at origin, 4 and 8 in the positive direction. Extract these numbers from this whole text and find the distance between the two furthest particles.
+🔴 2. The position of some particles on the horizontal x-axis are -12, -4, -3 and -1 in the negative direction, 0 at origin, 4 and 8 in the positive direction. Extract these numbers from this whole text and find the distance between the two furthest particles.
 
 ```py
 points = ['-12', '-4', '-3', '-1', '0', '4', '8']
@@ -435,7 +435,7 @@ distance = 8 -(-12) # 20
 
 ### Exercises: Level 2
 
-🔴 1.Write a pattern which identifies if a string is a valid python variable
+🔴 1. Write a pattern which identifies if a string is a valid python variable
 
     ```sh
     is_valid_variable('first_name') # True
@@ -446,7 +446,7 @@ distance = 8 -(-12) # 20
 
 ### Exercises: Level 3
 
-🔴 1.Clean the following text. After cleaning, count three most frequent words in the string.
+🔴 1. Clean the following text. After cleaning, count three most frequent words in the string.
 
     ```py
     sentence = '''%I $am@% a %tea@cher%, &and& I lo%#ve %tea@ching%;. There $is nothing; &as& mo@re rewarding as educa@ting &and& @emp%o@wering peo@ple. ;I found tea@ching m%o@re interesting tha@n any other %jo@bs. %Do@es thi%s mo@tivate yo@u to be a tea@cher!?'''

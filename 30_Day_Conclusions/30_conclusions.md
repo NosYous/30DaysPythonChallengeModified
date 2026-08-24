@@ -1,4 +1,4 @@
-> ℹ️ Jour de conclusion du challenge — aucun contenu nouveau.
+> ℹ️ Chapitre de conclusion : aucun nouveau contenu Python.
 
 <div align="center">
 

@@ -1,4 +1,4 @@
-> 🔴 **HORS PROGRAMME pour ta filière — jour à sauter.**
+> 🔴 HORS PROGRAMME — ce chapitre entier est hors du programme de ta filière. Lecture par curiosité uniquement ; ne jamais l'utiliser en examen.
 
 <div align="center">
   <h1> 30 Days Of Python: Day 17 - Exception Handling </h1>
@@ -35,7 +35,7 @@
 
 # 📘 Day 17
 
-## 🔴 Exception Handling
+## Exception Handling
 
 Python uses _try_ and _except_ to handle errors gracefully. A graceful exit (or graceful handling) of errors is a simple programming idiom - a program detects a serious error condition and "exits gracefully", in a controlled manner as a result. Often the program prints a descriptive error message to a terminal or log as part of the graceful exit, this makes our application more robust. The cause of an exception is often external to the program itself. An example of exceptions could be an incorrect input, wrong file name, unable to find a file, a malfunctioning IO device. Graceful handling of errors prevents our applications from crashing.
 
@@ -143,7 +143,7 @@ except Exception as e:
 
 ```
 
-## 🔴 Packing and Unpacking Arguments in Python
+## Packing and Unpacking Arguments in Python
 
 We use two operators:
 
@@ -244,7 +244,7 @@ age = 250
 {'name': 'Asabeneh', 'country': 'Finland', 'city': 'Helsinki', 'age': 250}
 ```
 
-## 🔴 Spreading in Python
+## Spreading in Python
 
 Like in JavaScript, spreading is possible in Python. Let us check it in an example below:
 
@@ -259,7 +259,7 @@ nordic_countries = [*country_lst_one, *country_lst_two]
 print(nordic_countries)  # ['Finland', 'Sweden', 'Norway', 'Denmark', 'Iceland']
 ```
 
-## 🔴 Enumerate
+## Enumerate
 
 If we are interested in an index of a list, we use _enumerate_ built-in function to get the index of each item in the list.
 
@@ -279,7 +279,7 @@ for index, i in enumerate(countries):
 The country Finland has been found at index 0.
 ```
 
-## 🔴 Zip
+## Zip
 
 Sometimes we would like to combine lists when looping through them. See the example below:
 
@@ -299,9 +299,9 @@ print(fruits_and_veges)
 
 🌕 You are determined. You are 17 steps a head to your way to greatness. Now do some exercises for your brain and muscles.
 
-## 🔴 Exercises: Day 17
+## Exercises: Day 17
 
-🔴 1.names = ['Finland', 'Sweden', 'Norway','Denmark','Iceland', 'Estonia','Russia']. Unpack the first five countries and store them in a variable nordic_countries, store Estonia and Russia in es, and ru respectively.
+🔴 1. names = ['Finland', 'Sweden', 'Norway','Denmark','Iceland', 'Estonia','Russia']. Unpack the first five countries and store them in a variable nordic_countries, store Estonia and Russia in es, and ru respectively.
 
 
 🎉 CONGRATULATIONS ! 🎉

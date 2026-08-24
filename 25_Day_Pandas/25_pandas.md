@@ -1,4 +1,4 @@
-> 🔴 **HORS PROGRAMME pour ta filière — jour à sauter.**
+> 🔴 HORS PROGRAMME — ce chapitre entier est hors du programme de ta filière. Lecture par curiosité uniquement ; ne jamais l'utiliser en examen.
 
 <div align="center">
   <h1> 30 Days Of Python: Day 25 - Pandas </h1>
@@ -46,7 +46,7 @@
 
 # 📘 Day 25
 
-## 🔴 Pandas
+## Pandas
 
 Pandas is an open source, high-performance, easy-to-use data structures and data analysis tools for the Python programming language.
 Pandas adds data structures and tools designed to work with table-like data which is *Series* and *Data Frames*.
@@ -210,7 +210,7 @@ print(s)
     dtype: float64
 ```
 
-## 🔴 DataFrames
+## DataFrames
 
 Pandas data frames can be created in different ways.
 
@@ -339,7 +339,7 @@ print(df)
   </tbody>
 </table>
 
-## 🔴 Reading CSV File Using Pandas
+## Reading CSV File Using Pandas
 
 To download the CSV file, what is needed in this example, console/command line is enough:
 
@@ -619,7 +619,7 @@ print(df.describe())  # describe can also give statistical information from a da
 
 Similar to describe(), the info() method also give information about the dataset.
 
-## 🔴 Modifying a DataFrame
+## Modifying a DataFrame
 
 Modifying a DataFrame:
     * We can create a new DataFrame
@@ -997,7 +997,7 @@ df
   </tbody>
 </table>
 
-## 🔴 Checking data types of Column values
+## Checking data types of Column values
 
 ```python
 print(df.Weight.dtype)
@@ -1202,13 +1202,13 @@ print(df[df['Ages'] < 120])
   </tbody>
 </table>
 
-## 🔴 Exercises: Day 25
+## Exercises: Day 25
 
-🔴 1.Read the hacker_news.csv file from data directory
-🔴 1.Get the first five rows
-🔴 1.Get the last five rows
-🔴 1.Get the title column as pandas series
-🔴 1.Count the number of rows and columns
+🔴 1. Read the hacker_news.csv file from data directory
+🔴 1. Get the first five rows
+🔴 1. Get the last five rows
+🔴 1. Get the title column as pandas series
+🔴 1. Count the number of rows and columns
     - Filter the titles which contain python
     - Filter the titles which contain JavaScript
     - Explore the data and make sense of it
