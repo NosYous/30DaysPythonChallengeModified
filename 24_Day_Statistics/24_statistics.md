@@ -1235,7 +1235,7 @@ To summarize, the main differences with python lists are:
 
 ## 🔴 💻 Exercises: Day 24
 
-1. Repeat all the examples
+🔴 1.Repeat all the examples
 
 🎉 CONGRATULATIONS ! 🎉
 

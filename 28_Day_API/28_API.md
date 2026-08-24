@@ -157,7 +157,7 @@ The GET, POST, PUT and DELETE are the HTTP request methods which we are going to
 
 ## 🔴 💻 Exercises: Day 28
 
-1. Read about API and HTTP
+🔴 1.Read about API and HTTP
 
 🎉 CONGRATULATIONS ! 🎉
 

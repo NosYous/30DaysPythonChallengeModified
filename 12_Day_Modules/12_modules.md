@@ -109,15 +109,15 @@ Using python _os_ module it is possible to automatically perform many operating 
 
 ```py
 # 🔴 import the module
-import os
+import os  # 🔴
 # 🔴 Creating a directory
-os.mkdir('directory_name')
+os.mkdir('directory_name')  # 🔴
 # 🔴 Changing the current directory
-os.chdir('path')
+os.chdir('path')  # 🔴
 # 🔴 Getting current working directory
-os.getcwd()
+os.getcwd()  # 🔴
 # 🔴 Removing directory
-os.rmdir()
+os.rmdir()  # 🔴
 ```
 
 ### 🔴 Sys Module
@@ -127,34 +127,34 @@ The sys module provides functions and variables used to manipulate different par
 Example of a script.py file:
 
 ```py
-import sys
+import sys  # 🔴
 # 🔴 print(sys.argv[0], argv[1],sys.argv[2])  # this line would print out: filename argument1 argument2
-print('Welcome {}. Enjoy  {} challenge!'.format(sys.argv[1], sys.argv[2]))
+print('Welcome {}. Enjoy  {} challenge!'.format(sys.argv[1], sys.argv[2]))  # 🔴
 ```
 
 Now to check how this script works I wrote in command line:
 
 ```sh
-python script.py Asabeneh 30DaysOfPython
+python script.py Asabeneh 30DaysOfPython  # 🔴
 ```
 
 The result:
 
 ```sh
-Welcome Asabeneh. Enjoy  30DayOfPython challenge! 
+Welcome Asabeneh. Enjoy  30DayOfPython challenge!   # 🔴
 ```
 
 Some useful sys commands:
 
 ```py
 # 🔴 to exit sys
-sys.exit()
+sys.exit()  # 🔴
 # 🔴 To know the largest integer variable it takes
-sys.maxsize
+sys.maxsize  # 🔴
 # 🔴 To know environment path
-sys.path
+sys.path  # 🔴
 # 🔴 To know the version of python you are using
-sys.version
+sys.version  # 🔴
 ```
 
 ### 🔴 Statistics Module
@@ -163,7 +163,7 @@ The statistics module provides functions for mathematical statistics of numeric 
 
 ```py
 from statistics import * # 🔴 importing all the statistics modules
-ages = [20, 20, 4, 24, 25, 22, 26, 20, 23, 22, 26]
+ages = [20, 20, 4, 24, 25, 22, 26, 20, 23, 22, 26]  # 🔴
 print(mean(ages))       # 🔴 ~22.9
 print(median(ages))     # 🔴 23
 print(mode(ages))       # 🔴 20
@@ -240,7 +240,7 @@ print(string.punctuation)   # !"#$%&'()*+,-./:;<=>?@[\]^_`{|}~
 By now you are familiar with importing modules. Let us do one more import to get very familiar with it. Let us import _random_ module which gives us a random number between 0 and 0.9999.... The _random_ module has lots of functions but in this section we will only use _random_ and _randint_.
 
 ```py
-from random import random, randint
+from random import random, randint  # 🔴
 print(random())   # 🔴 it doesn't take any arguments; it returns a value between 0 and 0.9999
 print(randint(5, 20)) # 🔴 it returns a random integer number between [5, 20] inclusive
 ```
@@ -251,12 +251,12 @@ print(randint(5, 20)) # 🔴 it returns a random integer number between [5, 20] 
 
 ### Exercises: Level 1
 
-1. Write a function which generates a six digit/character random_user_id. 
+🔴 1.Write a function which generates a six digit/character random_user_id. 
    ```py
      print(random_user_id()) 
      '1ee33d'
    ```
-2. Modify the previous task. Declare a function named user_id_gen_by_user. It doesn’t take any parameters but it takes two inputs using input(). One of the inputs is the number of characters and the second input is the number of IDs which are supposed to be generated.
+✅ 2.Modify the previous task. Declare a function named user_id_gen_by_user. It doesn’t take any parameters but it takes two inputs using input(). One of the inputs is the number of characters and the second input is the number of IDs which are supposed to be generated.
    
 ```py
 print(user_id_gen_by_user()) # user input: 5 5
@@ -275,7 +275,7 @@ print(user_id_gen_by_user()) # 16 5
 #dIV0SSUTgAdKwStr
 ```
 
-3. Write a function named rgb_color_gen. It will generate rgb colors (3 values ranging from 0 to 255 each).
+✅ 3.Write a function named rgb_color_gen. It will generate rgb colors (3 values ranging from 0 to 255 each).
    
 ```py
 print(rgb_color_gen())
@@ -284,9 +284,9 @@ print(rgb_color_gen())
 
 ### Exercises: Level 2
 
-1. Write a function list_of_hexa_colors which returns any number of hexadecimal colors in an array (six hexadecimal numbers written after #. Hexadecimal numeral system is made out of 16 symbols, 0-9 and first 6 letters of the alphabet, a-f. Check the task 6 for output examples).
-1. Write a function list_of_rgb_colors which returns any number of RGB colors in an array.
-1. Write a function generate_colors which can generate any number of hexa or rgb colors.
+✅ 1.Write a function list_of_hexa_colors which returns any number of hexadecimal colors in an array (six hexadecimal numbers written after #. Hexadecimal numeral system is made out of 16 symbols, 0-9 and first 6 letters of the alphabet, a-f. Check the task 6 for output examples).
+✅ 1.Write a function list_of_rgb_colors which returns any number of RGB colors in an array.
+✅ 1.Write a function generate_colors which can generate any number of hexa or rgb colors.
 
 ```py
    generate_colors('hexa', 3) # ['#a3e12f','#03ed55','#eb3d2b'] 
@@ -297,8 +297,8 @@ print(rgb_color_gen())
 
 ### Exercises: Level 3
 
-1. Call your function shuffle_list, it takes a list as a parameter and it returns a shuffled list
-1. Write a function which returns an array of seven random numbers in a range of 0-9. All the numbers must be unique.
+✅ 1.Call your function shuffle_list, it takes a list as a parameter and it returns a shuffled list
+🔴 1.Write a function which returns an array of seven random numbers in a range of 0-9. All the numbers must be unique.
 
 🎉 CONGRATULATIONS ! 🎉
 

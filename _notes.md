@@ -4,7 +4,7 @@ Pour : **2ème Sciences → 3ème Math → 4ème Math**
 Les 30 jours sont le guide original **mot pour mot** ; seuls des emojis ont été ajoutés.
 
 ## Légende
-- *(rien)* = au programme — apprends-le
+- ✅ = exercice au programme · *(rien)* = contenu au programme
 - 🟡 = bonus facultatif — peut t'aider, ne blesse jamais
 - 🔴 = hors programme / interdit en examen — sache que ça existe, n'emploie pas en devoir
 
