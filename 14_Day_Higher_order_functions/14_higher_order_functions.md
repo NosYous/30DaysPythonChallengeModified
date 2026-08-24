@@ -1,4 +1,4 @@
-> 🔴 HORS PROGRAMME — ce chapitre entier est hors du programme de ta filière. Lecture par curiosité uniquement ; ne jamais l'utiliser en examen.
+> 🔴 **HORS PROGRAMME pour ta filière — jour à sauter.**
 
 <div align="center">
   <h1> 30 Days Of Python: Day 14 - Higher Order Functions</h1>
@@ -39,7 +39,7 @@
 
 # 📘 Day 14
 
-## Higher Order Functions
+## 🔴 Higher Order Functions
 
 In Python functions are treated as first class citizens, allowing you to perform the following operations on functions:
 
@@ -100,7 +100,7 @@ print(result(-3))      # 3
 
 You can see from the above example that the higher order function is returning different functions depending on the passed parameter
 
-## Python Closures
+## 🔴 Python Closures
 
 Python allows a nested function to access the outer scope of the enclosing function. This is is known as a Closure. Let us have a look at how closures work in Python. In Python, closure is created by nesting a function inside another encapsulating function and then returning the inner function. See the example below.
 
@@ -118,7 +118,7 @@ print(closure_result(5))  # 15
 print(closure_result(10))  # 20
 ```
 
-## Python Decorators
+## 🔴 Python Decorators
 
 A decorator is a design pattern in Python that allows a user to add new functionality to an existing object without modifying its structure. Decorators are usually called before the definition of a function you want to decorate.
 
@@ -208,7 +208,7 @@ def print_full_name(first_name, last_name, country):
 print_full_name("Asabeneh", "Yetayeh",'Finland')
 ```
 
-## Built-in Higher Order Functions
+## 🔴 Built-in Higher Order Functions
 
 Some of the built-in higher order functions that we cover in this part are _map()_, _filter_, and _reduce_.
 Lambda function can be passed as a parameter and the best use case of lambda functions is in functions like map, filter and reduce.
@@ -325,7 +325,7 @@ total = reduce(add_two_nums, numbers_str)
 print(total)    # 15
 ```
 
-## 💻 Exercises: Day 14
+## 🔴 💻 Exercises: Day 14
 
 ```py
 countries = ['Estonia', 'Finland', 'Sweden', 'Denmark', 'Norway', 'Iceland']
@@ -335,34 +335,34 @@ numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 ### Exercises: Level 1
 
-🔴 1. Explain the difference between map, filter, and reduce.
-🔴 2. Explain the difference between higher order function, closure and decorator
-🔴 3. Define a call function before map, filter or reduce, see examples.
-🔴 4. Use for loop to print each country in the countries list.
-🔴 5. Use for to print each name in the names list.
-🔴 6. Use for to print each number in the numbers list.
+🔴 1.Explain the difference between map, filter, and reduce.
+🔴 2.Explain the difference between higher order function, closure and decorator
+🔴 3.Define a call function before map, filter or reduce, see examples.
+🔴 4.Use for loop to print each country in the countries list.
+🔴 5.Use for to print each name in the names list.
+🔴 6.Use for to print each number in the numbers list.
 
 ### Exercises: Level 2
 
-🔴 1. Use map to create a new list by changing each country to uppercase in the countries list
-🔴 1. Use map to create a new list by changing each number to its square in the numbers list
-🔴 1. Use map to change each name to uppercase in the names list
-🔴 1. Use filter to filter out countries containing 'land'.
-🔴 1. Use filter to filter out countries having exactly six characters.
-🔴 1. Use filter to filter out countries containing six letters and more in the country list.
-🔴 1. Use filter to filter out countries starting with an 'E'
-🔴 1. Chain two or more list iterators (eg. arr.map(callback).filter(callback).reduce(callback))
-🔴 1. Declare a function called get_string_lists which takes a list as a parameter and then returns a list containing only string items.
-🔴 1. Use reduce to sum all the numbers in the numbers list.
-🔴 1. Use reduce to concatenate all the countries and to produce this sentence: Estonia, Finland, Sweden, Denmark, Norway, and Iceland are north European countries
-🔴 1. Declare a function called categorize_countries that returns a list of countries with some common pattern (you can find the [countries list](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/data/countries.py) in this repository as countries.js(eg 'land', 'ia', 'island', 'stan')).
-🔴 1. Create a function returning a dictionary, where keys stand for starting letters of countries and values are the number of country names starting with that letter.
-🔴 2. Declare a get_first_ten_countries function - it returns a list of first ten countries from the countries.js list in the data folder.
-🔴 1. Declare a get_last_ten_countries function that returns the last ten countries in the countries list.
+🔴 1.Use map to create a new list by changing each country to uppercase in the countries list
+🔴 1.Use map to create a new list by changing each number to its square in the numbers list
+🔴 1.Use map to change each name to uppercase in the names list
+🔴 1.Use filter to filter out countries containing 'land'.
+🔴 1.Use filter to filter out countries having exactly six characters.
+🔴 1.Use filter to filter out countries containing six letters and more in the country list.
+🔴 1.Use filter to filter out countries starting with an 'E'
+🔴 1.Chain two or more list iterators (eg. arr.map(callback).filter(callback).reduce(callback))
+🔴 1.Declare a function called get_string_lists which takes a list as a parameter and then returns a list containing only string items.
+🔴 1.Use reduce to sum all the numbers in the numbers list.
+🔴 1.Use reduce to concatenate all the countries and to produce this sentence: Estonia, Finland, Sweden, Denmark, Norway, and Iceland are north European countries
+🔴 1.Declare a function called categorize_countries that returns a list of countries with some common pattern (you can find the [countries list](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/data/countries.py) in this repository as countries.js(eg 'land', 'ia', 'island', 'stan')).
+🔴 1.Create a function returning a dictionary, where keys stand for starting letters of countries and values are the number of country names starting with that letter.
+🔴 2.Declare a get_first_ten_countries function - it returns a list of first ten countries from the countries.js list in the data folder.
+🔴 1.Declare a get_last_ten_countries function that returns the last ten countries in the countries list.
 
 ### Exercises: Level 3
 
-🔴 1. Use the countries_data.py (https://github.com/Asabeneh/30-Days-Of-Python/blob/master/data/countries-data.py) file and follow the tasks below:
+🔴 1.Use the countries_data.py (https://github.com/Asabeneh/30-Days-Of-Python/blob/master/data/countries-data.py) file and follow the tasks below:
    - Sort countries by name, by capital, by population
    - Sort out the ten most spoken languages by location.
    - Sort out the ten most populated countries.

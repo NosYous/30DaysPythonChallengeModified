@@ -1,4 +1,4 @@
-> 🔴 HORS PROGRAMME — ce chapitre entier est hors du programme de ta filière. Lecture par curiosité uniquement ; ne jamais l'utiliser en examen.
+> 🔴 **HORS PROGRAMME pour ta filière — jour à sauter.**
 
 <div align="center">
   <h1> 30 Days Of Python: Day 24 - Statistics</h1>
@@ -28,15 +28,15 @@
 
 # 📘 Day 24
 
-## Python for Statistical Analysis
+## 🔴 Python for Statistical Analysis
 
-## Statistics
+## 🔴 Statistics
 
 Statistics is the discipline that studies the _collection_, _organization_, _displaying_, _analysing_, _interpretation_ and _presentation_ of data.
 Statistics is a branch of Mathematics that is recommended to be a prerequisite for data science and machine learning. Statistics is a very broad field but we will focus in this section only on the most relevant part.
 After completing this challenge, you may go onto the web development, data analysis, machine learning and data science path. Whatever path you may follow, at some point in your career you will get data which you may work on. Having some statistical knowledge will help you to make decisions based on data, _data tells as they say_.
 
-## Data
+## 🔴 Data
 
 What is data? Data is any set of characters that is gathered and translated for some purpose, usually analysis. It can be any character, including text and numbers, pictures, sound, or video. If data is not put in a context, it doesn't make any sense to a human or computer. To make sense from data we need to work on the data using different tools.
 
@@ -44,7 +44,7 @@ The work flow of data analysis, data science or machine learning starts from dat
 
 Data can be found in small or big format. Most of the data types we will get have been covered in the file handling section.
 
-## Statistics Module
+## 🔴 Statistics Module
 
 The Python _statistics_ module provides functions for calculating mathematical statistics of numerical data. The module is not intended to be a competitor to third-party libraries such as NumPy, SciPy, or proprietary full-featured statistics packages aimed at professional statisticians such as Minitab, SAS and Matlab. It is aimed at the level of graphing and scientific calculators.
 
@@ -60,7 +60,7 @@ So far, we have been using vscode but from now on I would recommend using Jupyte
 asabeneh@Asabeneh:~/Desktop/30DaysOfPython$ pip install numpy
 ```
 
-## Importing NumPy
+## 🔴 Importing NumPy
 
 Jupyter notebook is available if your are in favor of [jupyter notebook](https://github.com/Asabeneh/data-science-for-everyone/blob/master/numpy/numpy.ipynb)
 
@@ -73,7 +73,7 @@ Jupyter notebook is available if your are in favor of [jupyter notebook](https:/
     print(dir(np))
 ```
 
-## Creating numpy array using
+## 🔴 Creating numpy array using
 
 ### Creating int numpy arrays
 
@@ -237,7 +237,7 @@ print('The size:', two_dimensional_list.size)  # 3
     The size: 9
 ```
 
-## Mathematical Operation using numpy
+## 🔴 Mathematical Operation using numpy
 
 NumPy array is not like exactly like python list. To do mathematical operation in Python list we have to loop through the items but numpy can allow to do any mathematical operation without looping.
 Mathematical Operation:
@@ -352,7 +352,7 @@ print(ten_times_original)
     [ 1  4  9 16 25]
 ```
 
-## Checking data types
+## 🔴 Checking data types
 
 ```py
 #Int,  Float numbers
@@ -416,7 +416,7 @@ numpy_float_list.astype('int').astype('str')
     array(['1', '2', '3'], dtype='<U21')
 ```
 
-## Multi-dimensional Arrays
+## 🔴 Multi-dimensional Arrays
 
 ```py
 # 2 Dimension Array
@@ -477,7 +477,7 @@ print(two_dimension_array)
      [7 8 9]]
 ```
 
-## Slicing Numpy array
+## 🔴 Slicing Numpy array
 
 Slicing in numpy is similar to slicing in python list
 
@@ -517,7 +517,7 @@ two_dimension_array[::]
            [3, 2, 1]])
 ```
 
-## How to represent missing values ?
+## 🔴 How to represent missing values ?
 
 ```python
     print(two_dimension_array)
@@ -703,7 +703,7 @@ flattened
             70.81087439,  83.90130623,  87.58555972,  59.95462521])
 ```
 
-## Numpy and Statistics
+## 🔴 Numpy and Statistics
 
 ```py
 import matplotlib.pyplot as plt
@@ -1233,9 +1233,9 @@ To summarize, the main differences with python lists are:
 1. An equivalent numpy array occupies much less space than a python list of lists.
 1. numpy arrays support boolean indexing.
 
-## 💻 Exercises: Day 24
+## 🔴 💻 Exercises: Day 24
 
-🔴 1. Repeat all the examples
+🔴 1.Repeat all the examples
 
 🎉 CONGRATULATIONS ! 🎉
 

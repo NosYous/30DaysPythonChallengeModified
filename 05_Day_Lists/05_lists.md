@@ -1,5 +1,3 @@
-> Légende : *(rien)* = au programme · 🟡 = bonus facultatif · 🔴 = hors programme.
-
 <div align="center">
   <h1> 30 Days Of Python: Day 5 - Lists</h1>
   <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
@@ -166,7 +164,7 @@ print(second_last)      # 🔴 mango
 
 ```py
 lst = ['item1','item2','item3', 'item4', 'item5']  # 🔴
-first_item, second_item, third_item, *rest = lst
+first_item, second_item, third_item, *rest = lst  # 🔴
 print(first_item)     # 🔴 item1
 print(second_item)    # 🔴 item2
 print(third_item)     # 🔴 item3
@@ -177,13 +175,13 @@ print(rest)           # 🔴 ['item4', 'item5']
 ```py
 # 🔴 First Example
 fruits = ['banana', 'orange', 'mango', 'lemon','lime','apple']  # 🔴
-first_fruit, second_fruit, third_fruit, *rest = fruits 
+first_fruit, second_fruit, third_fruit, *rest = fruits   # 🔴
 print(first_fruit)     # 🔴 banana
 print(second_fruit)    # 🔴 orange
 print(third_fruit)     # 🔴 mango
 print(rest)           # 🔴 ['lemon','lime','apple']
 # 🔴 Second Example about unpacking list
-first, second, third,*rest, tenth = [1,2,3,4,5,6,7,8,9,10]
+first, second, third,*rest, tenth = [1,2,3,4,5,6,7,8,9,10]  # 🔴
 print(first)          # 🔴 1
 print(second)         # 🔴 2
 print(third)          # 🔴 3
@@ -191,7 +189,7 @@ print(rest)           # 🔴 [4,5,6,7,8,9]
 print(tenth)          # 🔴 10
 # 🔴 Third Example about unpacking list
 countries = ['Germany', 'France','Belgium','Sweden','Denmark','Finland','Norway','Iceland','Estonia']  # 🔴
-gr, fr, bg, sw, *scandic, es = countries
+gr, fr, bg, sw, *scandic, es = countries  # 🔴
 print(gr)   # 🔴
 print(fr)  # 🔴
 print(bg)  # 🔴
@@ -258,12 +256,12 @@ To add item to the end of an existing list we use the method *append()*.
 ```py
 # 🔴 syntax
 lst = list()  # 🔴
-lst.append(item)
+lst.append(item)  # 🔴
 ```
 
 ```py
 fruits = ['banana', 'orange', 'mango', 'lemon']  # 🔴
-fruits.append('apple')
+fruits.append('apple')  # 🔴
 print(fruits)           # 🔴 ['banana', 'orange', 'mango', 'lemon', 'apple']
 fruits.append('lime')   # 🔴 ['banana', 'orange', 'mango', 'lemon', 'apple', 'lime']
 print(fruits)  # 🔴
@@ -276,7 +274,7 @@ We can use *insert()* method to insert a single item at a specified index in a l
 ```py
 # 🔴 syntax
 lst = ['item1', 'item2']  # 🔴
-lst.insert(index, item)
+lst.insert(index, item)  # 🔴
 ```
 
 ```py
@@ -294,14 +292,14 @@ The remove method removes a specified item from a list
 ```py
 # 🔴 syntax
 lst = ['item1', 'item2']  # 🔴
-lst.remove(item)
+lst.remove(item)  # 🔴
 ```
 
 ```py
 fruits = ['banana', 'orange', 'mango', 'lemon', 'banana']  # 🔴
-fruits.remove('banana')
+fruits.remove('banana')  # 🔴
 print(fruits)  # 🔴 ['orange', 'mango', 'lemon', 'banana'] - this method removes the first occurrence of the item in the list
-fruits.remove('lemon')
+fruits.remove('lemon')  # 🔴
 print(fruits)  # 🔴 ['orange', 'mango', 'banana']
 ```
 
@@ -313,15 +311,15 @@ The *pop()* method removes the specified index, (or the last item if index is no
 # 🔴 syntax
 lst = ['item1', 'item2']  # 🔴
 lst.pop()       # 🔴 last item
-lst.pop(index)
+lst.pop(index)  # 🔴
 ```
 
 ```py
 fruits = ['banana', 'orange', 'mango', 'lemon']  # 🔴
-fruits.pop()
+fruits.pop()  # 🔴
 print(fruits)       # 🔴 ['banana', 'orange', 'mango']
 
-fruits.pop(0)
+fruits.pop(0)  # 🔴
 print(fruits)       # 🔴 ['orange', 'mango']
 ```
 
@@ -338,13 +336,13 @@ del lst        # 🔴 to delete the list completely
 
 ```py
 fruits = ['banana', 'orange', 'mango', 'lemon', 'kiwi', 'lime']  # 🔴
-del fruits[0]
+del fruits[0]  # 🔴
 print(fruits)       # 🔴 ['orange', 'mango', 'lemon', 'kiwi', 'lime']
-del fruits[1]
+del fruits[1]  # 🔴
 print(fruits)       # 🔴 ['orange', 'lemon', 'kiwi', 'lime']
 del fruits[1:3]     # 🔴 this deletes items between given indexes, so it does not delete the item with index 3!
 print(fruits)       # 🔴 ['orange', 'lime']
-del fruits
+del fruits  # 🔴
 print(fruits)       # 🔴 This should give: NameError: name 'fruits' is not defined
 ```
 
@@ -355,12 +353,12 @@ The *clear()* method empties the list:
 ```py
 # 🔴 syntax
 lst = ['item1', 'item2']  # 🔴
-lst.clear()
+lst.clear()  # 🔴
 ```
 
 ```py
 fruits = ['banana', 'orange', 'mango', 'lemon']  # 🔴
-fruits.clear()
+fruits.clear()  # 🔴
 print(fruits)       # 🔴 []
 ```
 
@@ -416,18 +414,18 @@ list1.extend(list2) # 🔴 ['item1', 'item2', 'item3', 'item4', 'item5']
 ```py
 num1 = [0, 1, 2, 3]  # 🔴
 num2= [4, 5, 6]  # 🔴
-num1.extend(num2)
+num1.extend(num2)  # 🔴
 print('Numbers:', num1) # 🔴 Numbers: [0, 1, 2, 3, 4, 5, 6]
 negative_numbers = [-5,-4,-3,-2,-1]  # 🔴
 positive_numbers = [1, 2, 3,4,5]  # 🔴
 zero = [0]  # 🔴
 
-negative_numbers.extend(zero)
-negative_numbers.extend(positive_numbers)
+negative_numbers.extend(zero)  # 🔴
+negative_numbers.extend(positive_numbers)  # 🔴
 print('Integers:', negative_numbers) # 🔴 Integers: [-5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5]
 fruits = ['banana', 'orange', 'mango', 'lemon']  # 🔴
 vegetables = ['Tomato', 'Potato', 'Cabbage', 'Onion', 'Carrot']  # 🔴
-fruits.extend(vegetables)
+fruits.extend(vegetables)  # 🔴
 print('Fruits and vegetables:', fruits ) # 🔴 Fruits and vegetables: ['banana', 'orange', 'mango', 'lemon', 'Tomato', 'Potato', 'Cabbage', 'Onion', 'Carrot']
 ```
 
@@ -438,7 +436,7 @@ The *count()* method returns the number of times an item appears in a list:
 ```py
 # 🔴 syntax
 lst = ['item1', 'item2']  # 🔴
-lst.count(item)
+lst.count(item)  # 🔴
 ```
 
 ```py
@@ -455,7 +453,7 @@ The *index()* method returns the index of an item in the list:
 ```py
 # 🔴 syntax
 lst = ['item1', 'item2']  # 🔴
-lst.index(item)
+lst.index(item)  # 🔴
 ```
 
 ```py
@@ -472,16 +470,16 @@ The *reverse()* method reverses the order of a list.
 ```py
 # 🔴 syntax
 lst = ['item1', 'item2']  # 🔴
-lst.reverse()
+lst.reverse()  # 🔴
 
 ```
 
 ```py
 fruits = ['banana', 'orange', 'mango', 'lemon']  # 🔴
-fruits.reverse()
+fruits.reverse()  # 🔴
 print(fruits) # 🔴 ['lemon', 'mango', 'orange', 'banana']
 ages = [22, 19, 24, 25, 26, 24, 25, 24]  # 🔴
-ages.reverse()
+ages.reverse()  # 🔴
 print(ages) # 🔴 [24, 25, 24, 26, 25, 24, 19, 22]
 ```
 
@@ -498,24 +496,24 @@ print(ages) # 🔴 [24, 25, 24, 26, 25, 24, 19, 22]
   lst.sort(reverse=True)    # 🔴 descending
   ```
 
-  **Example:**
+  🔴 **Example:**
 
   ```py
   fruits = ['banana', 'orange', 'mango', 'lemon']  # 🔴
-  fruits.sort()
+  fruits.sort()  # 🔴
   print(fruits)             # 🔴 sorted in alphabetical order, ['banana', 'lemon', 'mango', 'orange']
-  fruits.sort(reverse=True)
+  fruits.sort(reverse=True)  # 🔴
   print(fruits) # 🔴 ['orange', 'mango', 'lemon', 'banana']
   ages = [22, 19, 24, 25, 26, 24, 25, 24]  # 🔴
-  ages.sort()
-  print(ages) # 🔴  [19, 22, 24, 24, 24, 25, 25, 26]
+  ages.sort()  # 🔴
+  print(ages) # 🔴 [19, 22, 24, 24, 24, 25, 25, 26]
  
-  ages.sort(reverse=True)
-  print(ages) # 🔴  [26, 25, 25, 24, 24, 24, 22, 19]
+  ages.sort(reverse=True)  # 🔴
+  print(ages) # 🔴 [26, 25, 25, 24, 24, 24, 22, 19]
   ```
 
-  sorted(): returns the ordered list without modifying the original list  # 🔴
-  **Example:**
+🔴   sorted(): returns the ordered list without modifying the original list
+  🔴 **Example:**
 
   ```py
   fruits = ['banana', 'orange', 'mango', 'lemon']  # 🔴
@@ -532,43 +530,43 @@ print(ages) # 🔴 [24, 25, 24, 26, 25, 24, 19, 22]
 
 ### Exercises: Level 1
 
-✅ 1. Declare an empty list
-✅ 2. Declare a list with more than 5 items
-✅ 3. Find the length of your list
-✅ 4. Get the first item, the middle item and the last item of the list
-✅ 5. Declare a list called mixed_data_types, put your(name, age, height, marital status, address)
-✅ 6. Declare a list variable named it_companies and assign initial values Facebook, Google, Microsoft, Apple, IBM, Oracle and Amazon.
-✅ 7. Print the list using _print()_
-✅ 8. Print the number of companies in the list
-✅ 9. Print the first, middle and last company
-✅ 10. Print the list after modifying one of the companies
-✅ 11. Add an IT company to it_companies
-✅ 12. Insert an IT company in the middle of the companies list
-✅ 13. Change one of the it_companies names to uppercase (IBM excluded!)
-✅ 14. Join the it_companies with a string '#;&nbsp; '
-✅ 15. Check if a certain company exists in the it_companies list.
-🔴 16. Sort the list using sort() method
-✅ 17. Reverse the list in descending order using reverse() method
-🔴 18. Slice out the first 3 companies from the list
-🔴 19. Slice out the last 3 companies from the list
-🔴 20. Slice out the middle IT company or companies from the list
-✅ 21. Remove the first IT company from the list
-✅ 22. Remove the middle IT company or companies from the list
-✅ 23. Remove the last IT company from the list
-✅ 24. Remove all IT companies from the list
-✅ 25. Destroy the IT companies list
-✅ 26. Join the following lists:
+✅ 1.Declare an empty list
+✅ 2.Declare a list with more than 5 items
+✅ 3.Find the length of your list
+✅ 4.Get the first item, the middle item and the last item of the list
+✅ 5.Declare a list called mixed_data_types, put your(name, age, height, marital status, address)
+✅ 6.Declare a list variable named it_companies and assign initial values Facebook, Google, Microsoft, Apple, IBM, Oracle and Amazon.
+✅ 7.Print the list using _print()_
+✅ 8.Print the number of companies in the list
+✅ 9.Print the first, middle and last company
+✅ 10.Print the list after modifying one of the companies
+✅ 11.Add an IT company to it_companies
+✅ 12.Insert an IT company in the middle of the companies list
+✅ 13.Change one of the it_companies names to uppercase (IBM excluded!)
+✅ 14.Join the it_companies with a string '#;&nbsp; '
+✅ 15.Check if a certain company exists in the it_companies list.
+🔴 16.Sort the list using sort() method
+✅ 17.Reverse the list in descending order using reverse() method
+🔴 18.Slice out the first 3 companies from the list
+🔴 19.Slice out the last 3 companies from the list
+🔴 20.Slice out the middle IT company or companies from the list
+✅ 21.Remove the first IT company from the list
+✅ 22.Remove the middle IT company or companies from the list
+✅ 23.Remove the last IT company from the list
+✅ 24.Remove all IT companies from the list
+✅ 25.Destroy the IT companies list
+✅ 26.Join the following lists:
 
     ```py
     front_end = ['HTML', 'CSS', 'JS', 'React', 'Redux']
     back_end = ['Node','Express', 'MongoDB']
     ```
 
-✅ 27. After joining the lists in question 26. Copy the joined list and assign it to a variable full_stack, then insert Python and SQL after Redux.
+✅ 27.After joining the lists in question 26. Copy the joined list and assign it to a variable full_stack, then insert Python and SQL after Redux.
 
 ### Exercises: Level 2
 
-✅ 1. The following is a list of 10 students ages:
+✅ 1.The following is a list of 10 students ages:
 
 ```sh
 ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
@@ -581,9 +579,9 @@ ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
 - Find the range of the ages (max minus min)
 - Compare the value of (min - average) and (max - average), use _abs()_ method
 
-✅ 1. Find the middle country(ies) in the [countries list](https://github.com/Asabeneh/30-Days-Of-Python/tree/master/data/countries.py)
-✅ 1. Divide the countries list into two equal lists if it is even if not one more country for the first half.
-🔴 1. ['China', 'Russia', 'USA', 'Finland', 'Sweden', 'Norway', 'Denmark']. Unpack the first three countries and the rest as scandic countries.
+✅ 1.Find the middle country(ies) in the [countries list](https://github.com/Asabeneh/30-Days-Of-Python/tree/master/data/countries.py)
+✅ 1.Divide the countries list into two equal lists if it is even if not one more country for the first half.
+🔴 1.['China', 'Russia', 'USA', 'Finland', 'Sweden', 'Norway', 'Denmark']. Unpack the first three countries and the rest as scandic countries.
 
 🎉 CONGRATULATIONS ! 🎉
 

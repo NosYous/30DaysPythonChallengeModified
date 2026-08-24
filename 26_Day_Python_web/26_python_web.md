@@ -1,4 +1,4 @@
-> 🔴 HORS PROGRAMME — ce chapitre entier est hors du programme de ta filière. Lecture par curiosité uniquement ; ne jamais l'utiliser en examen.
+> 🔴 **HORS PROGRAMME pour ta filière — jour à sauter.**
 
 <div align="center">
   <h1> 30 Days Of Python: Day 26 - Python for web </h1>
@@ -40,7 +40,7 @@
 
 # 📘 Day 26
 
-## Python for Web
+## 🔴 Python for Web
 
 Python is a general purpose programming language and it can be used for many places. In this section, we will see how we use Python for the web. There are many Python web frame works. Django and Flask are the most popular ones. Today, we will see how to use Flask for web development.
 
@@ -563,9 +563,9 @@ Now, it is ready to be deployed. Steps to deploy the application on heroku
 
 After this step you will get an application like [this](http://thirdaysofpython-practice.herokuapp.com/)
 
-## Exercises: Day 26
+## 🔴 Exercises: Day 26
 
-🔴 1. You will build [this application](https://thirtydaysofpython-v1-final.herokuapp.com/). Only the text analyser part is left
+🔴 1.You will build [this application](https://thirtydaysofpython-v1-final.herokuapp.com/). Only the text analyser part is left
 
 
 🎉 CONGRATULATIONS ! 🎉

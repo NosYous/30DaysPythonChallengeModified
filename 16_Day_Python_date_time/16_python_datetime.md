@@ -1,4 +1,4 @@
-> 🔴 HORS PROGRAMME — ce chapitre entier est hors du programme de ta filière. Lecture par curiosité uniquement ; ne jamais l'utiliser en examen.
+> 🔴 **HORS PROGRAMME pour ta filière — jour à sauter.**
 
 <div align="center">
   <h1> 30 Days Of Python: Day 16 - Python Date time </h1>
@@ -30,7 +30,7 @@
   - [💻 Exercises: Day 16](#-exercises-day-16)
 # 📘 Day 16
 
-## Python *datetime*
+## 🔴 Python *datetime*
 
 Python has got _datetime_ module to handle date and time.
 
@@ -193,14 +193,14 @@ print("t3 =", t3)
 
 🌕 You are an extraordinary. You are 16 steps a head to your way to greatness. Now do some exercises for your brain and muscles.
 
-## 💻 Exercises: Day 16
+## 🔴 💻 Exercises: Day 16
 
-🔴 1. Get the current day, month, year, hour, minute and timestamp from datetime module
-🔴 2. Format the current date using this format: "%m/%d/%Y, %H:%M:%S")
-🔴 3. Today is 5 December, 2019. Change this time string to time.
-🔴 4. Calculate the time difference between now and new year.
-🔴 5. Calculate the time difference between 1 January 1970 and now.
-🔴 6. Think, what can you use the datetime module for? Examples:
+🔴 1.Get the current day, month, year, hour, minute and timestamp from datetime module
+🔴 2.Format the current date using this format: "%m/%d/%Y, %H:%M:%S")
+🔴 3.Today is 5 December, 2019. Change this time string to time.
+🔴 4.Calculate the time difference between now and new year.
+🔴 5.Calculate the time difference between 1 January 1970 and now.
+🔴 6.Think, what can you use the datetime module for? Examples:
    - Time series analysis
    - To get a timestamp of any activities in an application
    - Adding posts on a blog 

@@ -1,4 +1,4 @@
-> 🔴 HORS PROGRAMME — ce chapitre entier est hors du programme de ta filière. Lecture par curiosité uniquement ; ne jamais l'utiliser en examen.
+> 🔴 **HORS PROGRAMME pour ta filière — jour à sauter.**
 
 <div align="center">
   <h1> 30 Days Of Python: Day 28 - API </h1>
@@ -38,7 +38,7 @@
 
 # Application Programming Interface(API)
 
-## API
+## 🔴 API
 
 API stands for Application Programming Interface. The kind of API we will cover in this section is going to be Web APIs.
 Web APIs are the defined interfaces through which interactions happen between an enterprise and applications that use its assets, which also is a Service Level Agreement (SLA) to specify the functional provider and expose the service path or URL for its API users.
@@ -57,19 +57,19 @@ Many applications provide API end points. Some  examples of API such as the coun
 
 In this section, we will cover a RESTful API that uses HTTP request methods to GET, PUT, POST and DELETE data.
 
-## Building API
+## 🔴 Building API
 
 RESTful API is an application program interface (API) that uses HTTP requests to GET, PUT, POST and DELETE data. In the previous sections, we have learned about python, flask and mongoDB. We will use the knowledge we acquire to develop a RESTful API using Python flask and mongoDB database. Every application which has CRUD(Create, Read, Update, Delete) operation has an API to create data, to get data, to update data or to delete data from a database.
 
 To build an API, it is good to understand HTTP protocol and HTTP request and response cycle.
 
-## HTTP(Hypertext Transfer Protocol)
+## 🔴 HTTP(Hypertext Transfer Protocol)
 
 HTTP is an established communication protocol between a client and a server. A client in this case is a browser and server is the place where you access data. HTTP is a network protocol used to deliver resources which could be files on the World Wide Web, whether they are HTML files, image files, query results, scripts, or other file types.
 
 A browser is an HTTP client because it sends requests to an HTTP server (Web server), which then sends responses back to the client.
 
-## Structure of HTTP
+## 🔴 Structure of HTTP
 
 HTTP uses client-server model. An HTTP client opens a connection and sends a request message to an HTTP server and the HTTP server returns response message which is the requested resources. When the request response cycle completes the server closes the connection.
 
@@ -86,7 +86,7 @@ Let us an example of request and response messages by navigating this site:https
 
 ![Request and Response header](../images/request_response_header.png)
 
-## Initial Request Line(Status Line)
+## 🔴 Initial Request Line(Status Line)
 
 The initial request line is different from the response.
 A request line has three parts, separated by spaces:
@@ -155,9 +155,9 @@ The GET, POST, PUT and DELETE are the HTTP request methods which we are going to
 
 4. DELETE: Removes data
 
-## 💻 Exercises: Day 28
+## 🔴 💻 Exercises: Day 28
 
-🔴 1. Read about API and HTTP
+🔴 1.Read about API and HTTP
 
 🎉 CONGRATULATIONS ! 🎉
 

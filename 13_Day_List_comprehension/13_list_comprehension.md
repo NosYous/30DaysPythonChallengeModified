@@ -1,4 +1,4 @@
-> 🔴 HORS PROGRAMME — ce chapitre entier est hors du programme de ta filière. Lecture par curiosité uniquement ; ne jamais l'utiliser en examen.
+> 🔴 **HORS PROGRAMME pour ta filière — jour à sauter.**
 
 <div align="center">
   <h1> 30 Days Of Python: Day 13 - List Comprehension</h1>
@@ -30,7 +30,7 @@
 
 # 📘 Day 13
 
-## List Comprehension
+## 🔴 List Comprehension
 
 List comprehension in Python is a compact way of creating a list from a sequence. It is a short way to create a new list. List comprehension is considerably faster than processing a list using the _for_ loop.
 
@@ -100,7 +100,7 @@ flattened_list = [ number for row in list_of_lists for number in row]
 print(flattened_list)    # [1, 2, 3, 4, 5, 6, 7, 8, 9]
 ```
 
-## Lambda Function
+## 🔴 Lambda Function
 
 Lambda function is a small anonymous function without a name. It can take any number of arguments, but can only have one expression. Lambda function is similar to anonymous functions in JavaScript. We need it when we want to write an anonymous function inside another function.
 
@@ -155,13 +155,13 @@ print(two_power_of_five)  # 32
 
 🌕 Keep up the good work. Keep the momentum going, the sky is the limit! You have just completed day 13 challenges and you are 13 steps a head in to your way to greatness. Now do some exercises for your brain and muscles.
 
-## 💻 Exercises: Day 13
+## 🔴 💻 Exercises: Day 13
 
-🔴 1. Filter only negative and zero in the list using list comprehension
+🔴 1.Filter only negative and zero in the list using list comprehension
    ```py
    numbers = [-4, -3, -2, -1, 0, 2, 4, 6]
    ```
-🔴 2. Flatten the following list of lists of lists to a one dimensional list :
+🔴 2.Flatten the following list of lists of lists to a one dimensional list :
 
    ```py
    list_of_lists =[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
@@ -170,7 +170,7 @@ print(two_power_of_five)  # 32
    [1, 2, 3, 4, 5, 6, 7, 8, 9]
    ```
 
-🔴 3. Using list comprehension create the following list of tuples:
+🔴 3.Using list comprehension create the following list of tuples:
    ```py
    [(0, 1, 0, 0, 0, 0, 0),
    (1, 1, 1, 1, 1, 1, 1),
@@ -184,13 +184,13 @@ print(two_power_of_five)  # 32
    (9, 1, 9, 81, 729, 6561, 59049),
    (10, 1, 10, 100, 1000, 10000, 100000)]
    ```
-🔴 4. Flatten the following list to a new list:
+🔴 4.Flatten the following list to a new list:
    ```py
    countries = [[('Finland', 'Helsinki')], [('Sweden', 'Stockholm')], [('Norway', 'Oslo')]]
    output:
    [['FINLAND','FIN', 'HELSINKI'], ['SWEDEN', 'SWE', 'STOCKHOLM'], ['NORWAY', 'NOR', 'OSLO']]
    ```
-🔴 5. Change the following list to a list of dictionaries:
+🔴 5.Change the following list to a list of dictionaries:
    ```py
    countries = [[('Finland', 'Helsinki')], [('Sweden', 'Stockholm')], [('Norway', 'Oslo')]]
    output:
@@ -198,13 +198,13 @@ print(two_power_of_five)  # 32
    {'country': 'SWEDEN', 'city': 'STOCKHOLM'},
    {'country': 'NORWAY', 'city': 'OSLO'}]
    ```
-🔴 6. Change the following list of lists to a list of concatenated strings:
+🔴 6.Change the following list of lists to a list of concatenated strings:
    ```py
    names = [[('Asabeneh', 'Yetayeh')], [('David', 'Smith')], [('Donald', 'Trump')], [('Bill', 'Gates')]]
    output
    ['Asabeneh Yetaeyeh', 'David Smith', 'Donald Trump', 'Bill Gates']
    ```
-🔴 7. Write a lambda function which can solve a slope or y-intercept of linear functions.
+🔴 7.Write a lambda function which can solve a slope or y-intercept of linear functions.
 
 🎉 CONGRATULATIONS ! 🎉
 

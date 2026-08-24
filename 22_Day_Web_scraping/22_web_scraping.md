@@ -1,4 +1,4 @@
-> 🔴 HORS PROGRAMME — ce chapitre entier est hors du programme de ta filière. Lecture par curiosité uniquement ; ne jamais l'utiliser en examen.
+> 🔴 **HORS PROGRAMME pour ta filière — jour à sauter.**
 
 <div align="center">
   <h1> 30 Days Of Python: Day 22 - Web Scraping </h1>
@@ -26,7 +26,7 @@
 
 # 📘 Day 22
 
-## Python Web Scraping
+## 🔴 Python Web Scraping
 
 ### What is Web Scrapping
 
@@ -99,11 +99,11 @@ For reference check the [beautifulsoup documentation](https://www.crummy.com/sof
 
 🌕 You are so special, you are progressing everyday. You are left with only eight days to your way to greatness. Now do some exercises for your brain and muscles.
 
-## 💻 Exercises: Day 22
+## 🔴 💻 Exercises: Day 22
 
-🔴 1. Scrape the following website and store the data as json file(url = 'http://www.bu.edu/president/boston-university-facts-stats/').
-🔴 1. Extract the table in this url (https://archive.ics.uci.edu/ml/datasets.php) and change it to a json file
-🔴 2. Scrape the presidents table and store the data as json(https://en.wikipedia.org/wiki/List_of_presidents_of_the_United_States). The table is not very structured and the scrapping may take very long time.
+🔴 1.Scrape the following website and store the data as json file(url = 'http://www.bu.edu/president/boston-university-facts-stats/').
+🔴 1.Extract the table in this url (https://archive.ics.uci.edu/ml/datasets.php) and change it to a json file
+🔴 2.Scrape the presidents table and store the data as json(https://en.wikipedia.org/wiki/List_of_presidents_of_the_United_States). The table is not very structured and the scrapping may take very long time.
 
 🎉 CONGRATULATIONS ! 🎉
 

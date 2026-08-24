@@ -1,5 +1,3 @@
-> 🔴 HORS PROGRAMME — ce chapitre entier est hors du programme de ta filière. Lecture par curiosité uniquement ; ne jamais l'utiliser en examen.
-
 <div align="center">
   <h1> 30 Days Of Python: Day 15 - Python Type Errors </h1>
   <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
@@ -82,32 +80,32 @@ The error was a _SyntaxError_. After the fix our code was executed without a hit
 🔴 **Example 1: NameError**
 
 ```py
-asabeneh@Asabeneh:~$ python
-Python 3.9.6 (default, Jun 28 2021, 15:26:21)
-[Clang 11.0.0 (clang-1100.0.33.8)] on darwin
-Type "help", "copyright", "credits" or "license" for more information.
->>> print(age)
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-NameError: name 'age' is not defined
->>>
+asabeneh@Asabeneh:~$ python  # 🔴
+Python 3.9.6 (default, Jun 28 2021, 15:26:21)  # 🔴
+[Clang 11.0.0 (clang-1100.0.33.8)] on darwin  # 🔴
+Type "help", "copyright", "credits" or "license" for more information.  # 🔴
+>>> print(age)  # 🔴
+Traceback (most recent call last):  # 🔴
+  File "<stdin>", line 1, in <module>  # 🔴
+NameError: name 'age' is not defined  # 🔴
+>>>  # 🔴
 ```
 
 As you can see from the message above, name age is not defined. Yes, it is true that we did not define an age variable but we were trying to print it out as if we had had declared it. Now, lets fix this by declaring it and assigning with a value.
 
 ```py
-asabeneh@Asabeneh:~$ python
-Python 3.9.6 (default, Jun 28 2021, 15:26:21)
-[Clang 11.0.0 (clang-1100.0.33.8)] on darwin
-Type "help", "copyright", "credits" or "license" for more information.
->>> print(age)
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-NameError: name 'age' is not defined
->>> age = 25
->>> print(age)
-25
->>>
+asabeneh@Asabeneh:~$ python  # 🔴
+Python 3.9.6 (default, Jun 28 2021, 15:26:21)  # 🔴
+[Clang 11.0.0 (clang-1100.0.33.8)] on darwin  # 🔴
+Type "help", "copyright", "credits" or "license" for more information.  # 🔴
+>>> print(age)  # 🔴
+Traceback (most recent call last):  # 🔴
+  File "<stdin>", line 1, in <module>  # 🔴
+NameError: name 'age' is not defined  # 🔴
+>>> age = 25  # 🔴
+>>> print(age)  # 🔴
+25  # 🔴
+>>>  # 🔴
 ```
 
 The type of error was a _NameError_. We debugged the error by defining the variable name.
@@ -117,16 +115,16 @@ The type of error was a _NameError_. We debugged the error by defining the varia
 🔴 **Example 1: IndexError**
 
 ```py
-asabeneh@Asabeneh:~$ python
-Python 3.9.6 (default, Jun 28 2021, 15:26:21)
-[Clang 11.0.0 (clang-1100.0.33.8)] on darwin
-Type "help", "copyright", "credits" or "license" for more information.
->>> numbers = [1, 2, 3, 4, 5]
->>> numbers[5]
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-IndexError: list index out of range
->>>
+asabeneh@Asabeneh:~$ python  # 🔴
+Python 3.9.6 (default, Jun 28 2021, 15:26:21)  # 🔴
+[Clang 11.0.0 (clang-1100.0.33.8)] on darwin  # 🔴
+Type "help", "copyright", "credits" or "license" for more information.  # 🔴
+>>> numbers = [1, 2, 3, 4, 5]  # 🔴
+>>> numbers[5]  # 🔴
+Traceback (most recent call last):  # 🔴
+  File "<stdin>", line 1, in <module>  # 🔴
+IndexError: list index out of range  # 🔴
+>>>  # 🔴
 ```
 
 In the example above, Python raised an _IndexError_, because the list has only indexes from 0 to 4 , so it was out of range.
@@ -136,30 +134,30 @@ In the example above, Python raised an _IndexError_, because the list has only i
 🔴 **Example 1: ModuleNotFoundError**
 
 ```py
-asabeneh@Asabeneh:~$ python
-Python 3.9.6 (default, Jun 28 2021, 15:26:21)
-[Clang 11.0.0 (clang-1100.0.33.8)] on darwin
-Type "help", "copyright", "credits" or "license" for more information.
->>> import maths
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-ModuleNotFoundError: No module named 'maths'
->>>
+asabeneh@Asabeneh:~$ python  # 🔴
+Python 3.9.6 (default, Jun 28 2021, 15:26:21)  # 🔴
+[Clang 11.0.0 (clang-1100.0.33.8)] on darwin  # 🔴
+Type "help", "copyright", "credits" or "license" for more information.  # 🔴
+>>> import maths  # 🔴
+Traceback (most recent call last):  # 🔴
+  File "<stdin>", line 1, in <module>  # 🔴
+ModuleNotFoundError: No module named 'maths'  # 🔴
+>>>  # 🔴
 ```
 
 In the example above, I added an extra s to math deliberately and _ModuleNotFoundError_ was raised. Lets fix it by removing the extra s from math.
 
 ```py
-asabeneh@Asabeneh:~$ python
-Python 3.9.6 (default, Jun 28 2021, 15:26:21)
-[Clang 11.0.0 (clang-1100.0.33.8)] on darwin
-Type "help", "copyright", "credits" or "license" for more information.
->>> import maths
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-ModuleNotFoundError: No module named 'maths'
->>> import math
->>>
+asabeneh@Asabeneh:~$ python  # 🔴
+Python 3.9.6 (default, Jun 28 2021, 15:26:21)  # 🔴
+[Clang 11.0.0 (clang-1100.0.33.8)] on darwin  # 🔴
+Type "help", "copyright", "credits" or "license" for more information.  # 🔴
+>>> import maths  # 🔴
+Traceback (most recent call last):  # 🔴
+  File "<stdin>", line 1, in <module>  # 🔴
+ModuleNotFoundError: No module named 'maths'  # 🔴
+>>> import math  # 🔴
+>>>  # 🔴
 ```
 
 We fixed it, so let's use some of the functions from the math module.
@@ -169,41 +167,41 @@ We fixed it, so let's use some of the functions from the math module.
 🔴 **Example 1: AttributeError**
 
 ```py
-asabeneh@Asabeneh:~$ python
-Python 3.9.6 (default, Jun 28 2021, 15:26:21)
-[Clang 11.0.0 (clang-1100.0.33.8)] on darwin
-Type "help", "copyright", "credits" or "license" for more information.
->>> import maths
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-ModuleNotFoundError: No module named 'maths'
->>> import math
->>> math.PI
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-AttributeError: module 'math' has no attribute 'PI'
->>>
+asabeneh@Asabeneh:~$ python  # 🔴
+Python 3.9.6 (default, Jun 28 2021, 15:26:21)  # 🔴
+[Clang 11.0.0 (clang-1100.0.33.8)] on darwin  # 🔴
+Type "help", "copyright", "credits" or "license" for more information.  # 🔴
+>>> import maths  # 🔴
+Traceback (most recent call last):  # 🔴
+  File "<stdin>", line 1, in <module>  # 🔴
+ModuleNotFoundError: No module named 'maths'  # 🔴
+>>> import math  # 🔴
+>>> math.PI  # 🔴
+Traceback (most recent call last):  # 🔴
+  File "<stdin>", line 1, in <module>  # 🔴
+AttributeError: module 'math' has no attribute 'PI'  # 🔴
+>>>  # 🔴
 ```
 
 As you can see, I made a mistake again! Instead of pi, I tried to call a PI constant from maths module. It raised an attribute error, it means, that the attribute does not exist in the module. Lets fix it by changing from PI to pi.
 
 ```py
-asabeneh@Asabeneh:~$ python
-Python 3.9.6 (default, Jun 28 2021, 15:26:21)
-[Clang 11.0.0 (clang-1100.0.33.8)] on darwin
-Type "help", "copyright", "credits" or "license" for more information.
->>> import maths
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-ModuleNotFoundError: No module named 'maths'
->>> import math
->>> math.PI
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-AttributeError: module 'math' has no attribute 'PI'
->>> math.pi
-3.141592653589793
->>>
+asabeneh@Asabeneh:~$ python  # 🔴
+Python 3.9.6 (default, Jun 28 2021, 15:26:21)  # 🔴
+[Clang 11.0.0 (clang-1100.0.33.8)] on darwin  # 🔴
+Type "help", "copyright", "credits" or "license" for more information.  # 🔴
+>>> import maths  # 🔴
+Traceback (most recent call last):  # 🔴
+  File "<stdin>", line 1, in <module>  # 🔴
+ModuleNotFoundError: No module named 'maths'  # 🔴
+>>> import math  # 🔴
+>>> math.PI  # 🔴
+Traceback (most recent call last):  # 🔴
+  File "<stdin>", line 1, in <module>  # 🔴
+AttributeError: module 'math' has no attribute 'PI'  # 🔴
+>>> math.pi  # 🔴
+3.141592653589793  # 🔴
+>>>  # 🔴
 ```
 
 Now, when we call pi from the math module we got the result.
@@ -213,37 +211,37 @@ Now, when we call pi from the math module we got the result.
 🔴 **Example 1: KeyError**
 
 ```py
-asabeneh@Asabeneh:~$ python
-Python 3.9.6 (default, Jun 28 2021, 15:26:21)
-[Clang 11.0.0 (clang-1100.0.33.8)] on darwin
-Type "help", "copyright", "credits" or "license" for more information.
->>> users = {'name':'Asab', 'age':250, 'country':'Finland'}
->>> users['name']
-'Asab'
->>> users['county']
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-KeyError: 'county'
->>>
+asabeneh@Asabeneh:~$ python  # 🔴
+Python 3.9.6 (default, Jun 28 2021, 15:26:21)  # 🔴
+[Clang 11.0.0 (clang-1100.0.33.8)] on darwin  # 🔴
+Type "help", "copyright", "credits" or "license" for more information.  # 🔴
+>>> users = {'name':'Asab', 'age':250, 'country':'Finland'}  # 🔴
+>>> users['name']  # 🔴
+'Asab'  # 🔴
+>>> users['county']  # 🔴
+Traceback (most recent call last):  # 🔴
+  File "<stdin>", line 1, in <module>  # 🔴
+KeyError: 'county'  # 🔴
+>>>  # 🔴
 ```
 
 As you can see, there was a typo in the key used to get the dictionary value. so, this is a key error and the fix is quite straight forward. Let's do this!
 
 ```py
-asabeneh@Asabeneh:~$ python
-Python 3.9.6 (default, Jun 28 2021, 15:26:21)
-[Clang 11.0.0 (clang-1100.0.33.8)] on darwin
-Type "help", "copyright", "credits" or "license" for more information.
->>> user = {'name':'Asab', 'age':250, 'country':'Finland'}
->>> user['name']
-'Asab'
->>> user['county']
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-KeyError: 'county'
->>> user['country']
-'Finland'
->>>
+asabeneh@Asabeneh:~$ python  # 🔴
+Python 3.9.6 (default, Jun 28 2021, 15:26:21)  # 🔴
+[Clang 11.0.0 (clang-1100.0.33.8)] on darwin  # 🔴
+Type "help", "copyright", "credits" or "license" for more information.  # 🔴
+>>> user = {'name':'Asab', 'age':250, 'country':'Finland'}  # 🔴
+>>> user['name']  # 🔴
+'Asab'  # 🔴
+>>> user['county']  # 🔴
+Traceback (most recent call last):  # 🔴
+  File "<stdin>", line 1, in <module>  # 🔴
+KeyError: 'county'  # 🔴
+>>> user['country']  # 🔴
+'Finland'  # 🔴
+>>>  # 🔴
 ```
 
 We debugged the error, our code ran and we got the value.
@@ -253,33 +251,33 @@ We debugged the error, our code ran and we got the value.
 🔴 **Example 1: TypeError**
 
 ```py
-asabeneh@Asabeneh:~$ python
-Python 3.9.6 (default, Jun 28 2021, 15:26:21)
-[Clang 11.0.0 (clang-1100.0.33.8)] on darwin
-Type "help", "copyright", "credits" or "license" for more information.
->>> 4 + '3'
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-TypeError: unsupported operand type(s) for +: 'int' and 'str'
->>>
+asabeneh@Asabeneh:~$ python  # 🔴
+Python 3.9.6 (default, Jun 28 2021, 15:26:21)  # 🔴
+[Clang 11.0.0 (clang-1100.0.33.8)] on darwin  # 🔴
+Type "help", "copyright", "credits" or "license" for more information.  # 🔴
+>>> 4 + '3'  # 🔴
+Traceback (most recent call last):  # 🔴
+  File "<stdin>", line 1, in <module>  # 🔴
+TypeError: unsupported operand type(s) for +: 'int' and 'str'  # 🔴
+>>>  # 🔴
 ```
 
 In the example above, a TypeError is raised because we cannot add a number to a string. First solution would be to convert the string to int or float. Another solution would be converting the number to a string (the result then would be '43'). Let us follow the first fix.
 
 ```py
-asabeneh@Asabeneh:~$ python
-Python 3.9.6 (default, Jun 28 2021, 15:26:21)
-[Clang 11.0.0 (clang-1100.0.33.8)] on darwin
-Type "help", "copyright", "credits" or "license" for more information.
->>> 4 + '3'
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-TypeError: unsupported operand type(s) for +: 'int' and 'str'
->>> 4 + int('3')
-7
->>> 4 + float('3')
-7.0
->>>
+asabeneh@Asabeneh:~$ python  # 🔴
+Python 3.9.6 (default, Jun 28 2021, 15:26:21)  # 🔴
+[Clang 11.0.0 (clang-1100.0.33.8)] on darwin  # 🔴
+Type "help", "copyright", "credits" or "license" for more information.  # 🔴
+>>> 4 + '3'  # 🔴
+Traceback (most recent call last):  # 🔴
+  File "<stdin>", line 1, in <module>  # 🔴
+TypeError: unsupported operand type(s) for +: 'int' and 'str'  # 🔴
+>>> 4 + int('3')  # 🔴
+7  # 🔴
+>>> 4 + float('3')  # 🔴
+7.0  # 🔴
+>>>  # 🔴
 ```
 
 Error removed and we got the result we expected.
@@ -289,46 +287,46 @@ Error removed and we got the result we expected.
 🔴 **Example 1: TypeError**
 
 ```py
-asabeneh@Asabeneh:~$ python
-Python 3.9.6 (default, Jun 28 2021, 15:26:21)
-[Clang 11.0.0 (clang-1100.0.33.8)] on darwin
-Type "help", "copyright", "credits" or "license" for more information.
->>> from math import power
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-ImportError: cannot import name 'power' from 'math'
->>>
+asabeneh@Asabeneh:~$ python  # 🔴
+Python 3.9.6 (default, Jun 28 2021, 15:26:21)  # 🔴
+[Clang 11.0.0 (clang-1100.0.33.8)] on darwin  # 🔴
+Type "help", "copyright", "credits" or "license" for more information.  # 🔴
+>>> from math import power  # 🔴
+Traceback (most recent call last):  # 🔴
+  File "<stdin>", line 1, in <module>  # 🔴
+ImportError: cannot import name 'power' from 'math'  # 🔴
+>>>  # 🔴
 ```
 
 There is no function called power in the math module, it goes with a different name: _pow_. Let's correct it:
 
 ```py
-asabeneh@Asabeneh:~$ python
-Python 3.9.6 (default, Jun 28 2021, 15:26:21)
-[Clang 11.0.0 (clang-1100.0.33.8)] on darwin
-Type "help", "copyright", "credits" or "license" for more information.
->>> from math import power
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-ImportError: cannot import name 'power' from 'math'
->>> from math import pow
->>> pow(2,3)
-8.0
->>>
+asabeneh@Asabeneh:~$ python  # 🔴
+Python 3.9.6 (default, Jun 28 2021, 15:26:21)  # 🔴
+[Clang 11.0.0 (clang-1100.0.33.8)] on darwin  # 🔴
+Type "help", "copyright", "credits" or "license" for more information.  # 🔴
+>>> from math import power  # 🔴
+Traceback (most recent call last):  # 🔴
+  File "<stdin>", line 1, in <module>  # 🔴
+ImportError: cannot import name 'power' from 'math'  # 🔴
+>>> from math import pow  # 🔴
+>>> pow(2,3)  # 🔴
+8.0  # 🔴
+>>>  # 🔴
 ```
 
 ### 🔴 ValueError
 
 ```py
-asabeneh@Asabeneh:~$ python
-Python 3.9.6 (default, Jun 28 2021, 15:26:21)
-[Clang 11.0.0 (clang-1100.0.33.8)] on darwin
-Type "help", "copyright", "credits" or "license" for more information.
->>> int('12a')
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-ValueError: invalid literal for int() with base 10: '12a'
->>>
+asabeneh@Asabeneh:~$ python  # 🔴
+Python 3.9.6 (default, Jun 28 2021, 15:26:21)  # 🔴
+[Clang 11.0.0 (clang-1100.0.33.8)] on darwin  # 🔴
+Type "help", "copyright", "credits" or "license" for more information.  # 🔴
+>>> int('12a')  # 🔴
+Traceback (most recent call last):  # 🔴
+  File "<stdin>", line 1, in <module>  # 🔴
+ValueError: invalid literal for int() with base 10: '12a'  # 🔴
+>>>  # 🔴
 ```
 
 In this case we cannot change the given string to a number, because of the 'a' letter in it.
@@ -336,15 +334,15 @@ In this case we cannot change the given string to a number, because of the 'a' l
 ### 🔴 ZeroDivisionError
 
 ```py
-asabeneh@Asabeneh:~$ python
-Python 3.9.6 (default, Jun 28 2021, 15:26:21)
-[Clang 11.0.0 (clang-1100.0.33.8)] on darwin
-Type "help", "copyright", "credits" or "license" for more information.
->>> 1/0
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-ZeroDivisionError: division by zero
->>>
+asabeneh@Asabeneh:~$ python  # 🔴
+Python 3.9.6 (default, Jun 28 2021, 15:26:21)  # 🔴
+[Clang 11.0.0 (clang-1100.0.33.8)] on darwin  # 🔴
+Type "help", "copyright", "credits" or "license" for more information.  # 🔴
+>>> 1/0  # 🔴
+Traceback (most recent call last):  # 🔴
+  File "<stdin>", line 1, in <module>  # 🔴
+ZeroDivisionError: division by zero  # 🔴
+>>>  # 🔴
 ```
 
 We cannot divide a number by zero.
@@ -356,7 +354,7 @@ If you are good at reading the error types, then you will be able to fix your bu
 
 ## 💻 Exercises: Day 15
 
-🔴 1. Open you python interactive shell and try all the examples covered in this section.
+🔴 1.Open you python interactive shell and try all the examples covered in this section.
 
 🎉 CONGRATULATIONS ! 🎉
 

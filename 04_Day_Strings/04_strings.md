@@ -1,5 +1,3 @@
-> Légende : *(rien)* = au programme · 🟡 = bonus facultatif · 🔴 = hors programme.
-
 <div align="center">
   <h1> 30 Days Of Python: Day 4 - Strings</h1>
   <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
@@ -102,14 +100,14 @@ In Python and other programming languages \ followed by a character is an escape
 Now, let us see the use of the above escape sequences with examples.
 
 ```py
-print('I hope everyone is enjoying the Python Challenge.\nAre you ?') # 🟡 line break
-print('Days\tTopics\tExercises') # 🟡 adding tab space or 4 spaces
+print('I hope everyone is enjoying the Python Challenge.\nAre you ?') # line break
+print('Days\tTopics\tExercises') # adding tab space or 4 spaces
 print('Day 1\t5\t5')
 print('Day 2\t6\t20')
 print('Day 3\t5\t23')
 print('Day 4\t1\t35')
-print('This is a backslash  symbol (\\)') # 🟡 To write a backslash
-print('In every programming language it starts with \"Hello, World!\"') # 🟡 to write a double quote inside a single quote
+print('This is a backslash  symbol (\\)') # To write a backslash
+print('In every programming language it starts with \"Hello, World!\"') # to write a double quote inside a single quote
 
 # output
 I hope every one is enjoying the Python Challenge.
@@ -125,36 +123,36 @@ In every programming language it starts with "Hello, World!"
 
 ### 🔴 String formatting
 
-#### 🔴 Old Style String Formatting (% Operator)
+#### Old Style String Formatting (% Operator)
 
 In Python there are many ways of formatting strings. In this section, we will cover some of them.
 The "%" operator is used to format a set of variables enclosed in a "tuple" (a fixed size list), together with a format string, which contains normal text together with "argument specifiers", special symbols like "%s", "%d", "%f", "%.<small>number of digits</small>f".
 
-🔴 - %s - String (or any object with a string representation, like numbers)
-🔴 - %d - Integers
-🔴 - %f - Floating point numbers
-🔴 - "%.<small>number of digits</small>f" - Floating point numbers with fixed precision
+- %s - String (or any object with a string representation, like numbers)
+- %d - Integers
+- %f - Floating point numbers
+- "%.<small>number of digits</small>f" - Floating point numbers with fixed precision
 
 ```py
-# 🔴 Strings only
-first_name = 'Asabeneh'  # 🔴
-last_name = 'Yetayeh'  # 🔴
-language = 'Python'  # 🔴
-formated_string = 'I am %s %s. I teach %s' %(first_name, last_name, language)  # 🔴
-print(formated_string)  # 🔴
+# Strings only
+first_name = 'Asabeneh'
+last_name = 'Yetayeh'
+language = 'Python'
+formated_string = 'I am %s %s. I teach %s' %(first_name, last_name, language)
+print(formated_string)
 
-# 🔴 Strings  and numbers
-radius = 10  # 🔴
-pi = 3.14  # 🔴
-area = pi * radius ** 2  # 🔴
-formated_string = 'The area of circle with a radius %d is %.2f.' %(radius, area) # 🔴 2 refers the 2 significant digits after the point
+# Strings  and numbers
+radius = 10
+pi = 3.14
+area = pi * radius ** 2
+formated_string = 'The area of circle with a radius %d is %.2f.' %(radius, area) # 2 refers the 2 significant digits after the point
 
-python_libraries = ['Django', 'Flask', 'NumPy', 'Matplotlib','Pandas']  # 🔴
-formated_string = 'The following are python libraries:%s' % (python_libraries)  # 🔴
-print(formated_string) # 🔴 "The following are python libraries:['Django', 'Flask', 'NumPy', 'Matplotlib','Pandas']"
+python_libraries = ['Django', 'Flask', 'NumPy', 'Matplotlib','Pandas']
+formated_string = 'The following are python libraries:%s' % (python_libraries)
+print(formated_string) # "The following are python libraries:['Django', 'Flask', 'NumPy', 'Matplotlib','Pandas']"
 ```
 
-#### 🔴 New Style String Formatting (str.format)
+#### New Style String Formatting (str.format)
 
 This format was introduced in Python version 3.
 
@@ -165,8 +163,8 @@ last_name = 'Yetayeh'  # 🔴
 language = 'Python'  # 🔴
 formated_string = 'I am {} {}. I teach {}'.format(first_name, last_name, language)  # 🔴
 print(formated_string)  # 🔴
-a = 4  # 🔴
-b = 3  # 🔴
+a = 4
+b = 3
 
 print('{} + {} = {}'.format(a, b, a + b))  # 🔴
 print('{} - {} = {}'.format(a, b, a - b))  # 🔴
@@ -176,7 +174,7 @@ print('{} % {} = {}'.format(a, b, a % b))  # 🔴
 print('{} // {} = {}'.format(a, b, a // b))  # 🔴
 print('{} ** {} = {}'.format(a, b, a ** b))  # 🔴
 
-# 🔴 output
+# output
 4 + 3 = 7
 4 - 3 = 1
 4 * 3 = 12
@@ -185,12 +183,12 @@ print('{} ** {} = {}'.format(a, b, a ** b))  # 🔴
 4 // 3 = 1
 4 ** 3 = 64
 
-# 🔴 Strings  and numbers
-radius = 10  # 🔴
-pi = 3.14  # 🔴
-area = pi * radius ** 2  # 🔴
-formated_string = 'The area of a circle with a radius {} is {:.2f}.'.format(radius, area) # 🔴 2 digits after decimal
-print(formated_string)  # 🔴
+# Strings  and numbers
+radius = 10
+pi = 3.14
+area = pi * radius ** 2
+formated_string = 'The area of a circle with a radius {} is {:.2f}.'.format(radius, area) # 2 digits after decimal  # 🔴
+print(formated_string)
 
 ```
 
@@ -201,13 +199,13 @@ Another new string formatting is string interpolation, f-strings. Strings start 
 ```py
 a = 4
 b = 3
-print(f'{a} + {b} = {a +b}')
-print(f'{a} - {b} = {a - b}')
-print(f'{a} * {b} = {a * b}')
-print(f'{a} / {b} = {a / b:.2f}')
-print(f'{a} % {b} = {a % b}')
-print(f'{a} // {b} = {a // b}')
-print(f'{a} ** {b} = {a ** b}')
+print(f'{a} + {b} = {a +b}')  # 🟡
+print(f'{a} - {b} = {a - b}')  # 🟡
+print(f'{a} * {b} = {a * b}')  # 🟡
+print(f'{a} / {b} = {a / b:.2f}')  # 🟡
+print(f'{a} % {b} = {a % b}')  # 🟡
+print(f'{a} // {b} = {a // b}')  # 🟡
+print(f'{a} ** {b} = {a ** b}')  # 🟡
 ```
 
 ### 🟡 Python Strings as Sequences of Characters
@@ -464,7 +462,7 @@ print(challenge.islower()) # 🔴 False
 
 ```py
 challenge = 'thirty days of python'  # 🔴
-print(challenge.isupper()) # 🔴  False
+print(challenge.isupper()) # 🔴 False
 challenge = 'THIRTY DAYS OF PYTHON'  # 🔴
 print(challenge.isupper()) # 🔴 True
 ```
@@ -536,51 +534,51 @@ print(challenge.startswith('thirty')) # 🔴 False
 
 ## 💻 Exercises - Day 4
 
-✅ 1. Concatenate the string 'Thirty', 'Days', 'Of', 'Python' to a single string, 'Thirty Days Of Python'.
-✅ 2. Concatenate the string 'Coding', 'For' , 'All' to a single string, 'Coding For All'.
-✅ 3. Declare a variable named company and assign it to an initial value "Coding For All".
-✅ 4. Print the variable company using _print()_.
-✅ 5. Print the length of the company string using _len()_ method and _print()_.
-✅ 6. Change all the characters to uppercase letters using _upper()_ method.
-✅ 7. Change all the characters to lowercase letters using _lower()_ method.
-✅ 8. Use capitalize(), title(), swapcase() methods to format the value of the string _Coding For All_.
-🔴 9. Cut(slice) out the first word of _Coding For All_ string.
-✅ 10. Check if _Coding For All_ string contains a word Coding using the method index, find or other methods.
-✅ 11. Replace the word coding in the string 'Coding For All' to Python.
-✅ 12. Change "Python for Everyone" to "Python for All" using the replace method or other methods. 
-✅ 13. Split the string 'Coding For All' using space as the separator (split()) .
-✅ 14. "Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon" split the string at the comma.
-✅ 15. What is the character at index 0 in the string _Coding For All_.
-✅ 16. What is the last index of the string _Coding For All_.
-✅ 17. What character is at index 10 in "Coding For All" string.
-✅ 18. Create an acronym or an abbreviation for the name 'Python For Everyone'.
-✅ 19. Create an acronym or an abbreviation for the name 'Coding For All'.
-✅ 20. Use index to determine the position of the first occurrence of C in Coding For All.
-✅ 21. Use index to determine the position of the first occurrence of F in Coding For All.
-✅ 22. Use rfind to determine the position of the last occurrence of l in Coding For All People.
-✅ 23. Use index or find to find the position of the first occurrence of the word 'because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
-✅ 24. Use rindex to find the position of the last occurrence of the word because in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
-🔴 25. Slice out the phrase 'because because because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
-✅ 26. Find the position of the first occurrence of the word 'because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
-🔴 27. Slice out the phrase 'because because because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
-✅ 28. Does 'Coding For All' start with a substring _Coding_?
-✅ 29. Does 'Coding For All' end with a substring _coding_?
-✅ 30. '&nbsp;&nbsp; Coding For All &nbsp;&nbsp;&nbsp; &nbsp;' &nbsp;, remove the left and right trailing spaces in the given string.
-✅ 31. Which one of the following variables return True when we use the method isidentifier():
+✅ 1.Concatenate the string 'Thirty', 'Days', 'Of', 'Python' to a single string, 'Thirty Days Of Python'.
+✅ 2.Concatenate the string 'Coding', 'For' , 'All' to a single string, 'Coding For All'.
+✅ 3.Declare a variable named company and assign it to an initial value "Coding For All".
+✅ 4.Print the variable company using _print()_.
+✅ 5.Print the length of the company string using _len()_ method and _print()_.
+✅ 6.Change all the characters to uppercase letters using _upper()_ method.
+✅ 7.Change all the characters to lowercase letters using _lower()_ method.
+✅ 8.Use capitalize(), title(), swapcase() methods to format the value of the string _Coding For All_.
+🔴 9.Cut(slice) out the first word of _Coding For All_ string.
+✅ 10.Check if _Coding For All_ string contains a word Coding using the method index, find or other methods.
+✅ 11.Replace the word coding in the string 'Coding For All' to Python.
+✅ 12.Change "Python for Everyone" to "Python for All" using the replace method or other methods. 
+✅ 13.Split the string 'Coding For All' using space as the separator (split()) .
+✅ 14."Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon" split the string at the comma.
+✅ 15.What is the character at index 0 in the string _Coding For All_.
+✅ 16.What is the last index of the string _Coding For All_.
+✅ 17.What character is at index 10 in "Coding For All" string.
+✅ 18.Create an acronym or an abbreviation for the name 'Python For Everyone'.
+✅ 19.Create an acronym or an abbreviation for the name 'Coding For All'.
+✅ 20.Use index to determine the position of the first occurrence of C in Coding For All.
+✅ 21.Use index to determine the position of the first occurrence of F in Coding For All.
+✅ 22.Use rfind to determine the position of the last occurrence of l in Coding For All People.
+✅ 23.Use index or find to find the position of the first occurrence of the word 'because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
+✅ 24.Use rindex to find the position of the last occurrence of the word because in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
+🔴 25.Slice out the phrase 'because because because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
+✅ 26.Find the position of the first occurrence of the word 'because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
+🔴 27.Slice out the phrase 'because because because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
+✅ 28.Does 'Coding For All' start with a substring _Coding_?
+✅ 29.Does 'Coding For All' end with a substring _coding_?
+✅ 30.'&nbsp;&nbsp; Coding For All &nbsp;&nbsp;&nbsp; &nbsp;' &nbsp;, remove the left and right trailing spaces in the given string.
+✅ 31.Which one of the following variables return True when we use the method isidentifier():
     - 30DaysOfPython
     - thirty_days_of_python
-🔴 32. The following list contains the names of some of python libraries: ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']. Join the list with a hash with space string.
-✅ 33. Use the new line escape sequence to separate the following sentences.
+🔴 32.The following list contains the names of some of python libraries: ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']. Join the list with a hash with space string.
+✅ 33.Use the new line escape sequence to separate the following sentences.
     ```py
     I am enjoying this challenge.
     I just wonder what is next.
     ```
-✅ 34. Use a tab escape sequence to write the following lines.
+✅ 34.Use a tab escape sequence to write the following lines.
     ```py
     Name      Age     Country   City
     Asabeneh  250     Finland   Helsinki
     ```
-✅ 35. Use the string formatting method to display the following:
+✅ 35.Use the string formatting method to display the following:
 
 ```sh
 radius = 10
@@ -588,7 +586,7 @@ area = 3.14 * radius ** 2
 The area of a circle with radius 10 is 314 meters square.
 ```
 
-✅ 36. Make the following using string formatting methods:
+✅ 36.Make the following using string formatting methods:
 
 ```sh
 8 + 6 = 14

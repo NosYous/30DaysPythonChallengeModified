@@ -1,5 +1,3 @@
-> Légende : *(rien)* = au programme · 🟡 = bonus facultatif · 🔴 = hors programme.
-
 # 🐍 30 Days Of Python
 
 |# Day | Topics                                                    |
@@ -333,7 +331,7 @@ Comments play a crucial role in enhancing code readability and allowing develope
     # Python is eating the world
 ```
 
-🔴 **Example: Multiline Comment**
+**Example: Multiline Comment**
 
 Triple quote can be used for multiline comment if it is not assigned to a variable
 
@@ -356,7 +354,7 @@ In Python there are several types of data types. Let us get started with the mos
 - Float: Decimal number
     Example
     ... -3.5, -2.25, -1.0, 0.0, 1.1, 2.2, 3.5 ...
-- Complex
+- 🔴 Complex
     Example
     1 + j, 2 + 4j
 
@@ -402,7 +400,7 @@ Python list is an ordered collection which allows to store different data type i
 
 A Python dictionary object is an unordered collection of data in a key value pair format.
 
-🔴 **Example:**
+**Example:**
 
 ```py
 {
@@ -419,14 +417,14 @@ A Python dictionary object is an unordered collection of data in a key value pai
 
 A tuple is an ordered collection of different data types like list but tuples can not be modified once they are created. They are immutable.
 
-🔴 **Example:**
+**Example:**
 
 ```py
-('Asabeneh', 'Pawel', 'Brook', 'Abraham', 'Lidiya') # 🔴 Names
+('Asabeneh', 'Pawel', 'Brook', 'Abraham', 'Lidiya') # Names
 ```
 
 ```py
-('Earth', 'Jupiter', 'Neptune', 'Mars', 'Venus', 'Saturn', 'Uranus', 'Mercury') # 🔴 planets
+('Earth', 'Jupiter', 'Neptune', 'Mars', 'Venus', 'Saturn', 'Uranus', 'Mercury') # planets
 ```
 
 #### 🔴 Set
@@ -435,11 +433,11 @@ A set is a collection of data types similar to list and tuple. Unlike list and t
 
 In later sections, we will go in detail about each and every Python data type.
 
-🔴 **Example:**
+**Example:**
 
 ```py
 {2, 4, 3, 5}
-{3.14, 9.81, 2.7} # 🔴 order is not important in set
+{3.14, 9.81, 2.7} # order is not important in set
 ```
 
 ### Checking Data types
@@ -472,12 +470,12 @@ print(3 // 2)            # Floor division operator(//)
 # Checking data types
 print(type(10))          # Int
 print(type(3.14))        # Float
-print(type(1 + 3j))      # Complex number
+print(type(1 + 3j))      # 🔴 Complex number
 print(type('Asabeneh'))  # String
 print(type([1, 2, 3]))   # List
-print(type({'name':'Asabeneh'})) # Dictionary
-print(type({9.8, 3.14, 2.7}))    # Set
-print(type((9.8, 3.14, 2.7)))    # Tuple
+print(type({'name':'Asabeneh'})) # 🔴 Dictionary
+print(type({9.8, 3.14, 2.7}))    # 🔴 Set
+print(type((9.8, 3.14, 2.7)))    # 🔴 Tuple
 ```
 
 To run the python file check the image below. You can run the python file either by running the green button on Visual Studio Code or by typing _python helloworld.py_ in the terminal .
@@ -490,8 +488,8 @@ To run the python file check the image below. You can run the python file either
 
 ### Exercise: Level 1
 
-✅ 1. Check the python version you are using
-✅ 2. Open the python interactive shell and do the following operations. The operands are 3 and 4.
+✅ 1.Check the python version you are using
+✅ 2.Open the python interactive shell and do the following operations. The operands are 3 and 4.
    - addition(+)
    - subtraction(-)
    - multiplication(\*)
@@ -499,12 +497,12 @@ To run the python file check the image below. You can run the python file either
    - division(/)
    - exponential(\*\*)
    - floor division operator(//)
-✅ 3. Write strings on the python interactive shell. The strings are the following:
+✅ 3.Write strings on the python interactive shell. The strings are the following:
    - Your name
    - Your family name
    - Your country
    - I am enjoying 30 days of python
-✅ 4. Check the data types of the following data:
+✅ 4.Check the data types of the following data:
    - 10
    - 9.8
    - 3.14
@@ -516,12 +514,12 @@ To run the python file check the image below. You can run the python file either
 
 ### Exercise: Level 2
 
-✅ 1. Create a folder named day_1 inside 30DaysOfPython folder. Inside day_1 folder, create a python file helloworld.py and repeat questions 1, 2, 3 and 4. Remember to use _print()_ when you are working on a python file. Navigate to the directory where you have saved your file, and run it.
+✅ 1.Create a folder named day_1 inside 30DaysOfPython folder. Inside day_1 folder, create a python file helloworld.py and repeat questions 1, 2, 3 and 4. Remember to use _print()_ when you are working on a python file. Navigate to the directory where you have saved your file, and run it.
 
 ### Exercise: Level 3
 
 🔴 1. Write an example for different Python data types such as Number(Integer, Float, Complex), String, Boolean, List, Tuple, Set and Dictionary.
-🟡 2. Find an [Euclidean distance](https://en.wikipedia.org/wiki/Euclidean_distance#:~:text=In%20mathematics%2C%20the%20Euclidean%20distance,being%20called%20the%20Pythagorean%20distance.) between (2, 3) and (10, 8)
+🟡 2.Find an [Euclidean distance](https://en.wikipedia.org/wiki/Euclidean_distance#:~:text=In%20mathematics%2C%20the%20Euclidean%20distance,being%20called%20the%20Pythagorean%20distance.) between (2, 3) and (10, 8)
 
 🎉 CONGRATULATIONS ! 🎉
 

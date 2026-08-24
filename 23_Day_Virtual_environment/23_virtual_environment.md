@@ -1,4 +1,4 @@
-> 🔴 HORS PROGRAMME — ce chapitre entier est hors du programme de ta filière. Lecture par curiosité uniquement ; ne jamais l'utiliser en examen.
+> 🔴 **HORS PROGRAMME pour ta filière — jour à sauter.**
 
 <div align="center">
   <h1> 30 Days Of Python: Day 23 - Virtual Environment </h1>
@@ -25,7 +25,7 @@
 
 # 📘 Day 23
 
-## Setting up Virtual Environments
+## 🔴 Setting up Virtual Environments
 
 To start with project, it would be better to have a virtual environment. Virtual environment can help us to create an isolated or separate environment. This will help us to avoid conflicts in dependencies across projects. If you write pip freeze on your terminal you will see all the installed packages on your computer. If we use virtualenv, we will access only packages which are specific for that project. Open your terminal and install virtualenv
 
@@ -107,9 +107,9 @@ When you finish you should dactivate active project using _deactivate_.
 
 The necessary modules to work with flask are installed. Now, your project directory is ready for a flask project. You should include the venv to your .gitignore file not to push it to github.
 
-## 💻 Exercises: Day 23
+## 🔴 💻 Exercises: Day 23
 
-🔴 1. Create a project directory with a virtual environment based on the example given above.
+🔴 1.Create a project directory with a virtual environment based on the example given above.
 
 🎉 CONGRATULATIONS ! 🎉
 
