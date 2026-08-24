@@ -103,71 +103,71 @@ print(p['firstname'])
 
 Like other programming languages we can also import modules by importing the file/function using the key word _import_. Let's import the common module we will use most of the time. Some of the common built-in modules: _math_, _datetime_, _os_,_sys_, _random_, _statistics_, _collections_, _json_,_re_
 
-### 🔴 OS Module
+### 🟡 OS Module
 
 Using python _os_ module it is possible to automatically perform many operating system tasks. The OS module in Python provides functions for creating, changing current working directory, and removing a directory (folder), fetching its contents, changing and identifying the current directory.
 
 ```py
-# 🔴 import the module
-import os  # 🔴
-# 🔴 Creating a directory
-os.mkdir('directory_name')  # 🔴
-# 🔴 Changing the current directory
-os.chdir('path')  # 🔴
-# 🔴 Getting current working directory
-os.getcwd()  # 🔴
-# 🔴 Removing directory
-os.rmdir()  # 🔴
+# 🟡 import the module
+import os  # 🟡
+# 🟡 Creating a directory
+os.mkdir('directory_name')  # 🟡
+# 🟡 Changing the current directory
+os.chdir('path')  # 🟡
+# 🟡 Getting current working directory
+os.getcwd()  # 🟡
+# 🟡 Removing directory
+os.rmdir()  # 🟡
 ```
 
-### 🔴 Sys Module
+### 🟡 Sys Module
 
 The sys module provides functions and variables used to manipulate different parts of the Python runtime environment. Function sys.argv returns a list of command line arguments passed to a Python script. The item at index 0 in this list is always the name of the script, at index 1 is the argument passed from the command line.
 
 Example of a script.py file:
 
 ```py
-import sys  # 🔴
-# 🔴 print(sys.argv[0], argv[1],sys.argv[2])  # this line would print out: filename argument1 argument2
-print('Welcome {}. Enjoy  {} challenge!'.format(sys.argv[1], sys.argv[2]))  # 🔴
+import sys  # 🟡
+# 🟡 print(sys.argv[0], argv[1],sys.argv[2])  # this line would print out: filename argument1 argument2
+print('Welcome {}. Enjoy  {} challenge!'.format(sys.argv[1], sys.argv[2]))  # 🟡
 ```
 
 Now to check how this script works I wrote in command line:
 
 ```sh
-python script.py Asabeneh 30DaysOfPython  # 🔴
+python script.py Asabeneh 30DaysOfPython  # 🟡
 ```
 
 The result:
 
 ```sh
-Welcome Asabeneh. Enjoy  30DayOfPython challenge!   # 🔴
+Welcome Asabeneh. Enjoy  30DayOfPython challenge!   # 🟡
 ```
 
 Some useful sys commands:
 
 ```py
-# 🔴 to exit sys
-sys.exit()  # 🔴
-# 🔴 To know the largest integer variable it takes
-sys.maxsize  # 🔴
-# 🔴 To know environment path
-sys.path  # 🔴
-# 🔴 To know the version of python you are using
-sys.version  # 🔴
+# 🟡 to exit sys
+sys.exit()  # 🟡
+# 🟡 To know the largest integer variable it takes
+sys.maxsize  # 🟡
+# 🟡 To know environment path
+sys.path  # 🟡
+# 🟡 To know the version of python you are using
+sys.version  # 🟡
 ```
 
-### 🔴 Statistics Module
+### 🟡 Statistics Module
 
 The statistics module provides functions for mathematical statistics of numeric data. The popular statistical functions which are defined in this module: _mean_, _median_, _mode_, _stdev_ etc.
 
 ```py
-from statistics import * # 🔴 importing all the statistics modules
-ages = [20, 20, 4, 24, 25, 22, 26, 20, 23, 22, 26]  # 🔴
-print(mean(ages))       # 🔴 ~22.9
-print(median(ages))     # 🔴 23
-print(mode(ages))       # 🔴 20
-print(stdev(ages))      # 🔴 ~2.3
+from statistics import * # 🟡 importing all the statistics modules
+ages = [20, 20, 4, 24, 25, 22, 26, 20, 23, 22, 26]  # 🟡
+print(mean(ages))       # 🟡 ~22.9
+print(median(ages))     # 🟡 23
+print(mode(ages))       # 🟡 20
+print(stdev(ages))      # 🟡 ~2.3
 ```
 
 ### Math Module
@@ -235,14 +235,14 @@ print(string.digits)        # 0123456789
 print(string.punctuation)   # !"#$%&'()*+,-./:;<=>?@[\]^_`{|}~
 ```
 
-### 🔴 Random Module
+### 🟡 Random Module
 
 By now you are familiar with importing modules. Let us do one more import to get very familiar with it. Let us import _random_ module which gives us a random number between 0 and 0.9999.... The _random_ module has lots of functions but in this section we will only use _random_ and _randint_.
 
 ```py
-from random import random, randint  # 🔴
-print(random())   # 🔴 it doesn't take any arguments; it returns a value between 0 and 0.9999
-print(randint(5, 20)) # 🔴 it returns a random integer number between [5, 20] inclusive
+from random import random, randint  # 🟡
+print(random())   # 🟡 it doesn't take any arguments; it returns a value between 0 and 0.9999
+print(randint(5, 20)) # 🟡 it returns a random integer number between [5, 20] inclusive
 ```
 
 🌕 You are going far. Keep going! You have just completed day 12 challenges and you are 12 steps a head in to your way to greatness. Now do some exercises for your brain and muscles.

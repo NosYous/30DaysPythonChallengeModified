@@ -288,254 +288,254 @@ pto = language[0:6:2] #
 print(pto) # Pto
 ```
 
-### 🔴 String Methods
+### 🟡 String Methods
 
 There are many string methods which allow us to format strings. See some of the string methods in the following example:
 
 🔴 - capitalize(): Converts the first character of the string to capital letter
 
 ```py
-challenge = 'thirty days of python'  # 🔴
-print(challenge.capitalize()) # 🔴 'Thirty days of python'
+challenge = 'thirty days of python'  # 🟡
+print(challenge.capitalize()) # 🟡 'Thirty days of python'
 ```
 
 🔴 - count(): returns occurrences of substring in string, count(substring, start=.., end=..). The start is a starting indexing for counting and end is the last index to count.
 
 ```py
-challenge = 'thirty days of python'  # 🔴
-print(challenge.count('y')) # 🔴 3
-print(challenge.count('y', 7, 14)) # 🔴 1, 
-print(challenge.count('th')) # 🔴 2`
+challenge = 'thirty days of python'  # 🟡
+print(challenge.count('y')) # 🟡 3
+print(challenge.count('y', 7, 14)) # 🟡 1, 
+print(challenge.count('th')) # 🟡 2`
 ```
 
 🔴 - endswith(): Checks if a string ends with a specified ending
 
 ```py
-challenge = 'thirty days of python'  # 🔴
-print(challenge.endswith('on'))   # 🔴 True
-print(challenge.endswith('tion')) # 🔴 False
+challenge = 'thirty days of python'  # 🟡
+print(challenge.endswith('on'))   # 🟡 True
+print(challenge.endswith('tion')) # 🟡 False
 ```
 
 🔴 - expandtabs(): Replaces tab character with spaces, default tab size is 8. It takes tab size argument
 
 ```py
-challenge = 'thirty\tdays\tof\tpython'  # 🔴
-print(challenge.expandtabs())   # 🔴 'thirty  days    of      python'
-print(challenge.expandtabs(10)) # 🔴 'thirty    days      of        python'
+challenge = 'thirty\tdays\tof\tpython'  # 🟡
+print(challenge.expandtabs())   # 🟡 'thirty  days    of      python'
+print(challenge.expandtabs(10)) # 🟡 'thirty    days      of        python'
 ```
 
 🔴 - find(): Returns the index of the first occurrence of a substring, if not found returns -1
 
 ```py
-challenge = 'thirty days of python'  # 🔴
-print(challenge.find('y'))  # 🔴 5
-print(challenge.find('th')) # 🔴 0
+challenge = 'thirty days of python'  # 🟡
+print(challenge.find('y'))  # 🟡 5
+print(challenge.find('th')) # 🟡 0
 ```
 
 🔴 - rfind(): Returns the index of the last occurrence of a substring, if not found returns -1
 
 ```py
-challenge = 'thirty days of python'  # 🔴
-print(challenge.rfind('y'))  # 🔴 16
-print(challenge.rfind('th')) # 🔴 17
+challenge = 'thirty days of python'  # 🟡
+print(challenge.rfind('y'))  # 🟡 16
+print(challenge.rfind('th')) # 🟡 17
 ```
 
 🔴 - format(): formats string into a nicer output  
    More about string formatting check this [link](https://www.programiz.com/python-programming/methods/string/format)
 
 ```py
-first_name = 'Asabeneh'  # 🔴
-last_name = 'Yetayeh'  # 🔴
-age = 250  # 🔴
-job = 'teacher'  # 🔴
-country = 'Finland'  # 🔴
-sentence = 'I am {} {}. I am a {}. I am {} years old. I live in {}.'.format(first_name, last_name, job, age, country)  # 🔴
-print(sentence) # 🔴 I am Asabeneh Yetayeh. I am 250 years old. I am a teacher. I live in Finland.
+first_name = 'Asabeneh'  # 🟡
+last_name = 'Yetayeh'  # 🟡
+age = 250  # 🟡
+job = 'teacher'  # 🟡
+country = 'Finland'  # 🟡
+sentence = 'I am {} {}. I am a {}. I am {} years old. I live in {}.'.format(first_name, last_name, job, age, country)  # 🟡
+print(sentence) # 🟡 I am Asabeneh Yetayeh. I am 250 years old. I am a teacher. I live in Finland.
 
-radius = 10  # 🔴
-pi = 3.14  # 🔴
-area = pi * radius ** 2  # 🔴
-result = 'The area of a circle with radius {} is {}'.format(str(radius), str(area))  # 🔴
-print(result) # 🔴 The area of a circle with radius 10 is 314
+radius = 10  # 🟡
+pi = 3.14  # 🟡
+area = pi * radius ** 2  # 🟡
+result = 'The area of a circle with radius {} is {}'.format(str(radius), str(area))  # 🟡
+print(result) # 🟡 The area of a circle with radius 10 is 314
 ```
 
 🔴 - index(): Returns the lowest index of a substring, additional arguments indicate starting and ending index (default 0 and string length - 1). If the substring is not found it raises a valueError. 
 
 ```py
-challenge = 'thirty days of python'  # 🔴
-sub_string = 'da'  # 🔴
-print(challenge.index(sub_string))  # 🔴 7
-print(challenge.index(sub_string, 9)) # 🔴 error
+challenge = 'thirty days of python'  # 🟡
+sub_string = 'da'  # 🟡
+print(challenge.index(sub_string))  # 🟡 7
+print(challenge.index(sub_string, 9)) # 🟡 error
 ```
 
 🔴 - rindex(): Returns the highest index of a substring, additional arguments indicate starting and ending index (default 0 and string length - 1)
 
 ```py
-challenge = 'thirty days of python'  # 🔴
-sub_string = 'da'  # 🔴
-print(challenge.rindex(sub_string))  # 🔴 7
-print(challenge.rindex(sub_string, 9)) # 🔴 error
-print(challenge.rindex('on', 8)) # 🔴 19
+challenge = 'thirty days of python'  # 🟡
+sub_string = 'da'  # 🟡
+print(challenge.rindex(sub_string))  # 🟡 7
+print(challenge.rindex(sub_string, 9)) # 🟡 error
+print(challenge.rindex('on', 8)) # 🟡 19
 ```
 
 🔴 - isalnum(): Checks alphanumeric character
 
 ```py
-challenge = 'ThirtyDaysPython'  # 🔴
-print(challenge.isalnum()) # 🔴 True
+challenge = 'ThirtyDaysPython'  # 🟡
+print(challenge.isalnum()) # 🟡 True
 
-challenge = '30DaysPython'  # 🔴
-print(challenge.isalnum()) # 🔴 True
+challenge = '30DaysPython'  # 🟡
+print(challenge.isalnum()) # 🟡 True
 
-challenge = 'thirty days of python'  # 🔴
-print(challenge.isalnum()) # 🔴 False, space is not an alphanumeric character
+challenge = 'thirty days of python'  # 🟡
+print(challenge.isalnum()) # 🟡 False, space is not an alphanumeric character
 
-challenge = 'thirty days of python 2019'  # 🔴
-print(challenge.isalnum()) # 🔴 False
+challenge = 'thirty days of python 2019'  # 🟡
+print(challenge.isalnum()) # 🟡 False
 ```
 
 🔴 - isalpha(): Checks if all string elements are alphabet characters (a-z and A-Z)
 
 ```py
-challenge = 'thirty days of python'  # 🔴
-print(challenge.isalpha()) # 🔴 False, space is once again excluded
-challenge = 'ThirtyDaysPython'  # 🔴
-print(challenge.isalpha()) # 🔴 True
-num = '123'  # 🔴
-print(num.isalpha())      # 🔴 False
+challenge = 'thirty days of python'  # 🟡
+print(challenge.isalpha()) # 🟡 False, space is once again excluded
+challenge = 'ThirtyDaysPython'  # 🟡
+print(challenge.isalpha()) # 🟡 True
+num = '123'  # 🟡
+print(num.isalpha())      # 🟡 False
 ```
 
 🔴 - isdecimal(): Checks if all characters in a string are decimal (0-9)
 
 ```py
-challenge = 'thirty days of python'  # 🔴
-print(challenge.isdecimal())  # 🔴 False
-challenge = '123'  # 🔴
-print(challenge.isdecimal())  # 🔴 True
-challenge = '\u00B2'  # 🔴
-print(challenge.isdigit())   # 🔴 True 
-challenge = '12 3'  # 🔴
-print(challenge.isdecimal())  # 🔴 False, space not allowed
+challenge = 'thirty days of python'  # 🟡
+print(challenge.isdecimal())  # 🟡 False
+challenge = '123'  # 🟡
+print(challenge.isdecimal())  # 🟡 True
+challenge = '\u00B2'  # 🟡
+print(challenge.isdigit())   # 🟡 True 
+challenge = '12 3'  # 🟡
+print(challenge.isdecimal())  # 🟡 False, space not allowed
 ```
 
 🔴 - isdigit(): Checks if all characters in a string are numbers (0-9 and some other unicode characters for numbers)
 
 ```py
-challenge = 'Thirty'  # 🔴
-print(challenge.isdigit()) # 🔴 False
-challenge = '30'  # 🔴
-print(challenge.isdigit())   # 🔴 True
-challenge = '\u00B2'  # 🔴
-print(challenge.isdigit())   # 🔴 True
+challenge = 'Thirty'  # 🟡
+print(challenge.isdigit()) # 🟡 False
+challenge = '30'  # 🟡
+print(challenge.isdigit())   # 🟡 True
+challenge = '\u00B2'  # 🟡
+print(challenge.isdigit())   # 🟡 True
 ```
 
 🔴 - isnumeric(): Checks if all characters in a string are numbers or number related (just like isdigit(), just accepts more symbols, like ½)
 
 ```py
-num = '10'  # 🔴
-print(num.isnumeric()) # 🔴 True
-num = '\u00BD' # 🔴 ½
-print(num.isnumeric()) # 🔴 True
-num = '10.5'  # 🔴
-print(num.isnumeric()) # 🔴 False
+num = '10'  # 🟡
+print(num.isnumeric()) # 🟡 True
+num = '\u00BD' # 🟡 ½
+print(num.isnumeric()) # 🟡 True
+num = '10.5'  # 🟡
+print(num.isnumeric()) # 🟡 False
 ```
 
 🔴 - isidentifier(): Checks for a valid identifier - it checks if a string is a valid variable name
 
 ```py
-challenge = '30DaysOfPython'  # 🔴
-print(challenge.isidentifier()) # 🔴 False, because it starts with a number
-challenge = 'thirty_days_of_python'  # 🔴
-print(challenge.isidentifier()) # 🔴 True
+challenge = '30DaysOfPython'  # 🟡
+print(challenge.isidentifier()) # 🟡 False, because it starts with a number
+challenge = 'thirty_days_of_python'  # 🟡
+print(challenge.isidentifier()) # 🟡 True
 ```
 
 🔴 - islower(): Checks if all alphabet characters in the string are lowercase
 
 ```py
-challenge = 'thirty days of python'  # 🔴
-print(challenge.islower()) # 🔴 True
-challenge = 'Thirty days of python'  # 🔴
-print(challenge.islower()) # 🔴 False
+challenge = 'thirty days of python'  # 🟡
+print(challenge.islower()) # 🟡 True
+challenge = 'Thirty days of python'  # 🟡
+print(challenge.islower()) # 🟡 False
 ```
 
 🔴 - isupper(): Checks if all alphabet characters in the string are uppercase
 
 ```py
-challenge = 'thirty days of python'  # 🔴
-print(challenge.isupper()) # 🔴 False
-challenge = 'THIRTY DAYS OF PYTHON'  # 🔴
-print(challenge.isupper()) # 🔴 True
+challenge = 'thirty days of python'  # 🟡
+print(challenge.isupper()) # 🟡 False
+challenge = 'THIRTY DAYS OF PYTHON'  # 🟡
+print(challenge.isupper()) # 🟡 True
 ```
 
 🔴 - join(): Returns a concatenated string
 
 ```py
-web_tech = ['HTML', 'CSS', 'JavaScript', 'React']  # 🔴
-result = ' '.join(web_tech)  # 🔴
-print(result) # 🔴 'HTML CSS JavaScript React'
+web_tech = ['HTML', 'CSS', 'JavaScript', 'React']  # 🟡
+result = ' '.join(web_tech)  # 🟡
+print(result) # 🟡 'HTML CSS JavaScript React'
 ```
 
 ```py
-web_tech = ['HTML', 'CSS', 'JavaScript', 'React']  # 🔴
-result = '# 🔴 '.join(web_tech)
-print(result) # 🔴 'HTML# CSS# JavaScript# React'
+web_tech = ['HTML', 'CSS', 'JavaScript', 'React']  # 🟡
+result = '# 🟡 '.join(web_tech)
+print(result) # 🟡 'HTML# CSS# JavaScript# React'
 ```
 
 🔴 - strip(): Removes all given characters starting from the beginning and end of the string
 
 ```py
-challenge = 'thirty days of pythoonnn'  # 🔴
-print(challenge.strip('noth')) # 🔴 'irty days of py'
+challenge = 'thirty days of pythoonnn'  # 🟡
+print(challenge.strip('noth')) # 🟡 'irty days of py'
 ```
 
 🔴 - replace(): Replaces substring with a given string
 
 ```py
-challenge = 'thirty days of python'  # 🔴
-print(challenge.replace('python', 'coding')) # 🔴 'thirty days of coding'
+challenge = 'thirty days of python'  # 🟡
+print(challenge.replace('python', 'coding')) # 🟡 'thirty days of coding'
 ```
 
 🔴 - split(): Splits the string, using given string or space as a separator
 
 ```py
-challenge = 'thirty days of python'  # 🔴
-print(challenge.split()) # 🔴 ['thirty', 'days', 'of', 'python']
-challenge = 'thirty, days, of, python'  # 🔴
-print(challenge.split(', ')) # 🔴 ['thirty', 'days', 'of', 'python']
+challenge = 'thirty days of python'  # 🟡
+print(challenge.split()) # 🟡 ['thirty', 'days', 'of', 'python']
+challenge = 'thirty, days, of, python'  # 🟡
+print(challenge.split(', ')) # 🟡 ['thirty', 'days', 'of', 'python']
 ```
 
 🔴 - title(): Returns a title cased string
 
 ```py
-challenge = 'thirty days of python'  # 🔴
-print(challenge.title()) # 🔴 Thirty Days Of Python
+challenge = 'thirty days of python'  # 🟡
+print(challenge.title()) # 🟡 Thirty Days Of Python
 ```
 
 🔴 - swapcase(): Converts all uppercase characters to lowercase and all lowercase characters to uppercase characters
 
 ```py
-challenge = 'thirty days of python'  # 🔴
-print(challenge.swapcase())   # 🔴 THIRTY DAYS OF PYTHON
-challenge = 'Thirty Days Of Python'  # 🔴
-print(challenge.swapcase())  # 🔴 tHIRTY dAYS oF pYTHON
+challenge = 'thirty days of python'  # 🟡
+print(challenge.swapcase())   # 🟡 THIRTY DAYS OF PYTHON
+challenge = 'Thirty Days Of Python'  # 🟡
+print(challenge.swapcase())  # 🟡 tHIRTY dAYS oF pYTHON
 ```
 
 🔴 - startswith(): Checks if String Starts with the Specified String
 
 ```py
-challenge = 'thirty days of python'  # 🔴
-print(challenge.startswith('thirty')) # 🔴 True
+challenge = 'thirty days of python'  # 🟡
+print(challenge.startswith('thirty')) # 🟡 True
 
-challenge = '30 days of python'  # 🔴
-print(challenge.startswith('thirty')) # 🔴 False
+challenge = '30 days of python'  # 🟡
+print(challenge.startswith('thirty')) # 🟡 False
 ```
 
 🌕 You are an extraordinary person and you have a remarkable potential. You have just completed day 4 challenges and you are four steps a head in to your way to greatness. Now do some exercises for your brain and muscles.
 
 ## 💻 Exercises - Day 4
 
-1. Concatenate the string 'Thirty', 'Days', 'Of', 'Python' to a single string, 'Thirty Days Of Python'. ✅
-2. Concatenate the string 'Coding', 'For' , 'All' to a single string, 'Coding For All'. ✅
+1. Concatenate the string 'Thirty', 'Days', 'Of', 'Python' to a single string, 'Thirty Days Of Python'. 🟡
+2. Concatenate the string 'Coding', 'For' , 'All' to a single string, 'Coding For All'. 🟡
 3. Declare a variable named company and assign it to an initial value "Coding For All". ✅
 4. Print the variable company using _print()_. ✅
 5. Print the length of the company string using _len()_ method and _print()_. ✅
@@ -568,12 +568,12 @@ print(challenge.startswith('thirty')) # 🔴 False
     - 30DaysOfPython
     - thirty_days_of_python
 32. The following list contains the names of some of python libraries: ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']. Join the list with a hash with space string. 🔴
-33. Use the new line escape sequence to separate the following sentences. ✅
+33. Use the new line escape sequence to separate the following sentences. 🟡
     ```py
     I am enjoying this challenge.
     I just wonder what is next.
     ```
-34. Use a tab escape sequence to write the following lines. ✅
+34. Use a tab escape sequence to write the following lines. 🟡
     ```py
     Name      Age     Country   City
     Asabeneh  250     Finland   Helsinki

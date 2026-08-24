@@ -86,7 +86,7 @@ else:
 
 The condition above proves false, therefore the else block was executed. How about if our condition is more than two? We could use _elif_.
 
-### 🟡 If Elif Else
+### If Elif Else
 
 In our daily life, we make decisions on daily basis. We make decisions not by checking one or two conditions but multiple conditions. As similar to life, programming is also full of conditions. We use _elif_ when we have multiple conditions.
 
@@ -127,7 +127,7 @@ a = 3  # 🔴
 print('A is positive') if a > 0 else print('A is negative') # 🔴 first condition met, 'A is positive' will be printed
 ```
 
-### 🟡 Nested Conditions
+### Nested Conditions
 
 Conditions can be nested
 

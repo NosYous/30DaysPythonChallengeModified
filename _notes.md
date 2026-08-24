@@ -20,13 +20,13 @@ Les 30 jours sont le guide original **mot pour mot** ; seuls des emojis ont ét�
 ## Carte des jours
 | Jour | Sujet | Statut | Année |
 |------|-------|--------|-------|
-| 01 | Introduction | ✅ | 2AS |
+| 01 | Introduction | ✅ | 1AS |
 | 02 | Variables, built-ins | ✅ | 2AS |
 | 03 | Opérateurs | ✅ | 2AS |
 | 04 | Chaînes | 🟡 cœur seulement | 2AS |
 | 05 | Listes (tableau 1D) | ✅ | 3AS/4AS |
 | 06–08 | Tuples, Sets, Dicts | 🔴 | — |
-| 09 | Conditionnelles | ✅ progressive | 2AS→4AS |
+| 09 | Conditionnelles | ✅ progressive | 1AS→4AS |
 | 10 | Boucles | ✅ progressive | 2AS→3AS |
 | 11 | Fonctions (modules) | ✅ | 3AS |
 | 12 | Modules prédéfinis | ✅ | 3AS |
