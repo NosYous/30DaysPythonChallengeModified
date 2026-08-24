@@ -3,6 +3,9 @@
 Pour : **2ème Sciences → 3ème Math → 4ème Math** 
 Les 30 jours sont le guide original **mot pour mot** ; seuls des emojis ont été ajoutés.
 
+## Modules prédéfinis au programme (3AS)
+Le programme dit « utiliser des modules prédéfinis » sans les nommer ; en classe : `random` (jeux/simulations) et `math` (sqrt…). Le guide couvre `random` (Jour 12) ; `math` n'y figure pas → doc officielle Python. os/sys/statistics = 🟡 bonus.
+
 ## Légende
 - ✅ = exercice au programme · *(rien)* = contenu au programme
 - 🟡 = bonus facultatif — peut t'aider, ne blesse jamais
@@ -29,7 +32,7 @@ Les 30 jours sont le guide original **mot pour mot** ; seuls des emojis ont ét�
 | 09 | Conditionnelles | ✅ progressive | 1AS→4AS |
 | 10 | Boucles | ✅ progressive | 2AS→3AS |
 | 11 | Fonctions (modules) | ✅ | 3AS |
-| 12 | Modules prédéfinis | ✅ | 3AS |
+| 12 | Modules prédéfinis | ✅ (`random`) · 🟡 os/sys/statistics | 3AS |
 | 13–29 | le reste | 🔴 | — |
 | 30 | Conclusion | ℹ️ | — |
 

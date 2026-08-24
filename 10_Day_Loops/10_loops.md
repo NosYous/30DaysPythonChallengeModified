@@ -88,6 +88,8 @@ The above loop condition will be false when count is 5 and the loop stops, and e
 
 ### 🔴 Break and Continue - Part 1
 
+> 🔴 `break` est explicitement interdit en examen (« Ne pas utiliser l'instruction break » — programme 4ème). `continue` n'est pas interdit mais hors leçons : bonus.
+
 🔴 - Break: We use break when we like to get out of or stop the loop.
 
 ```py
@@ -354,36 +356,36 @@ for key in person:
             print(skill)
 ```
 
-### 🔴 For Else
+### 🟡 For Else
 
 If we want to execute some message when the loop ends, we use else.
 
 ```py
-# 🔴 syntax
-for iterator in range(start, end, step):  # 🔴
-    do something  # 🔴
-else:  # 🔴
-    print('The loop ended')  # 🔴
+# 🟡 syntax
+for iterator in range(start, end, step):  # 🟡
+    do something  # 🟡
+else:  # 🟡
+    print('The loop ended')  # 🟡
 ```
 
 🔴 **Example:**
 
 ```py
-for number in range(11):  # 🔴
-    print(number)   # 🔴 prints 0 to 10, not including 11
-else:  # 🔴
-    print('The loop stops at', number)  # 🔴
+for number in range(11):  # 🟡
+    print(number)   # 🟡 prints 0 to 10, not including 11
+else:  # 🟡
+    print('The loop stops at', number)  # 🟡
 ```
 
-### 🔴 Pass
+### 🟡 Pass
 
 In python when statement is required (after semicolon), but we don't like to execute any code there, we can write the word _pass_ to avoid errors. Also we can use it as a placeholder, for future statements.
 
 🔴 **Example:**
 
 ```py
-for number in range(6):  # 🔴
-    pass  # 🔴
+for number in range(6):  # 🟡
+    pass  # 🟡
 ```
 
 🌕 You established a big milestone, you are unstoppable. Keep going! You have just completed day 10 challenges and you are 10 steps a head in to your way to greatness. Now do some exercises for your brain and muscles.
