@@ -392,7 +392,7 @@ print(matches)  # ['6,', '2019', '8', '2021']
 
 ### Exercises: Level 1
 
- 🔴 1.What is the most frequent word in the following paragraph?
+ 1. What is the most frequent word in the following paragraph? 🔴
 
 ```py
     paragraph = 'I love teaching. If you do not love teaching what else can you love. I love Python if you do not love something which can give you all the capabilities to develop an application what else can you love.
@@ -425,7 +425,7 @@ print(matches)  # ['6,', '2019', '8', '2021']
     ]
 ```
 
-🔴 2.The position of some particles on the horizontal x-axis are -12, -4, -3 and -1 in the negative direction, 0 at origin, 4 and 8 in the positive direction. Extract these numbers from this whole text and find the distance between the two furthest particles.
+2. The position of some particles on the horizontal x-axis are -12, -4, -3 and -1 in the negative direction, 0 at origin, 4 and 8 in the positive direction. Extract these numbers from this whole text and find the distance between the two furthest particles. 🔴
 
 ```py
 points = ['-12', '-4', '-3', '-1', '0', '4', '8']
@@ -435,7 +435,7 @@ distance = 8 -(-12) # 20
 
 ### Exercises: Level 2
 
-🔴 1.Write a pattern which identifies if a string is a valid python variable
+1. Write a pattern which identifies if a string is a valid python variable 🔴
 
     ```sh
     is_valid_variable('first_name') # True
@@ -446,7 +446,7 @@ distance = 8 -(-12) # 20
 
 ### Exercises: Level 3
 
-🔴 1.Clean the following text. After cleaning, count three most frequent words in the string.
+1. Clean the following text. After cleaning, count three most frequent words in the string. 🔴
 
     ```py
     sentence = '''%I $am@% a %tea@cher%, &and& I lo%#ve %tea@ching%;. There $is nothing; &as& mo@re rewarding as educa@ting &and& @emp%o@wering peo@ple. ;I found tea@ching m%o@re interesting tha@n any other %jo@bs. %Do@es thi%s mo@tivate yo@u to be a tea@cher!?'''

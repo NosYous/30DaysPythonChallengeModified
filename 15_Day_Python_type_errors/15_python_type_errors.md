@@ -354,7 +354,7 @@ If you are good at reading the error types, then you will be able to fix your bu
 
 ## 💻 Exercises: Day 15
 
-🔴 1.Open you python interactive shell and try all the examples covered in this section.
+1. Open you python interactive shell and try all the examples covered in this section. 🔴
 
 🎉 CONGRATULATIONS ! 🎉
 
