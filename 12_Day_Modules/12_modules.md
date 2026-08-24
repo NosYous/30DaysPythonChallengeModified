@@ -251,7 +251,7 @@ print(randint(5, 20)) # 🟡 it returns a random integer number between [5, 20] 
 
 ### Exercises: Level 1
 
-1. Write a function which generates a six digit/character random_user_id. 🔴
+1. Write a function which generates a six digit/character random_user_id. ✅
    ```py
      print(random_user_id()) 
      '1ee33d'
@@ -298,7 +298,7 @@ print(rgb_color_gen())
 ### Exercises: Level 3
 
 1. Call your function shuffle_list, it takes a list as a parameter and it returns a shuffled list ✅
-1. Write a function which returns an array of seven random numbers in a range of 0-9. All the numbers must be unique. 🔴
+1. Write a function which returns an array of seven random numbers in a range of 0-9. All the numbers must be unique. ✅
 
 🎉 CONGRATULATIONS ! 🎉
 
