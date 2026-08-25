@@ -29,7 +29,7 @@ L'icône d'un exercice suit la partie qu'il teste : bases du programme (variable
 | 01 | Introduction | ✅ | 1AS |
 | 02 | Variables, built-ins | ✅ | 2AS |
 | 03 | Opérateurs | ✅ | 2AS |
-| 04 | Chaînes | 🟡 cœur seulement | 2AS |
+| 04 | Chaînes | ✅ cœur (concat, len, index) · 🟡 méthodes · 🔴 slicing/formatage/unpacking | 1AS→4AS |
 | 05 | Listes (tableau 1D) | ✅ | 3AS/4AS |
 | 06–08 | Tuples, Sets, Dicts | 🔴 | — |
 | 09 | Conditionnelles | ✅ progressive | 1AS→4AS |

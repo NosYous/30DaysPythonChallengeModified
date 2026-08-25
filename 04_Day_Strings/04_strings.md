@@ -208,21 +208,21 @@ print(f'{a} // {b} = {a // b}')  # 🔴
 print(f'{a} ** {b} = {a ** b}')  # 🔴
 ```
 
-### 🟡 Python Strings as Sequences of Characters
+### Python Strings as Sequences of Characters
 
 Python strings are sequences of characters, and share their basic methods of access with other Python ordered sequences of objects – lists and tuples. The simplest way of extracting single characters from strings (and individual members from any sequence) is to unpack them into corresponding variables.
 
-#### Unpacking Characters
+#### 🔴 Unpacking Characters
 
 ```
-language = 'Python'
-a,b,c,d,e,f = language # unpacking sequence characters into variables
-print(a) # P
-print(b) # y
-print(c) # t
-print(d) # h
-print(e) # o
-print(f) # n
+language = 'Python'  # 🔴
+a,b,c,d,e,f = language # 🔴 unpacking sequence characters into variables
+print(a) # 🔴 P
+print(b) # 🔴 y
+print(c) # 🔴 t
+print(d) # 🔴 h
+print(e) # 🔴 o
+print(f) # 🔴 n
 ```
 
 #### Accessing Characters in Strings by Index
@@ -252,16 +252,16 @@ second_last = language[-2]
 print(second_last) # o
 ```
 
-#### Slicing Python Strings
+#### 🔴 Slicing Python Strings
 
 In python we can slice strings into substrings.
 
 ```py
-language = 'Python'
-first_three = language[0:3] # starts at zero index and up to 3 but not include 3
-print(first_three) #Pyt
-last_three = language[3:6]
-print(last_three) # hon
+language = 'Python'  # 🔴
+first_three = language[0:3] # 🔴 starts at zero index and up to 3 but not include 3
+print(first_three) # 🔴 Pyt
+last_three = language[3:6]  # 🔴
+print(last_three) # 🔴 hon
 # Another way
 last_three = language[-3:]
 print(last_three)   # hon
