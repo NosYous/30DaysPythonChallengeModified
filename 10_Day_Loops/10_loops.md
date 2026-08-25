@@ -368,7 +368,7 @@ else:  # 🟡
     print('The loop ended')  # 🟡
 ```
 
-🔴 **Example:**
+🟡 **Example:**
 
 ```py
 for number in range(11):  # 🟡
@@ -381,7 +381,7 @@ else:  # 🟡
 
 In python when statement is required (after semicolon), but we don't like to execute any code there, we can write the word _pass_ to avoid errors. Also we can use it as a placeholder, for future statements.
 
-🔴 **Example:**
+🟡 **Example:**
 
 ```py
 for number in range(6):  # 🟡

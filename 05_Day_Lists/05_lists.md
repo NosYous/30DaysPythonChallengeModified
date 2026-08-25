@@ -485,7 +485,7 @@ print(ages) # 🟡 [24, 25, 24, 26, 25, 24, 19, 22]
 
 ### 🟡 Sorting List Items
 
-🔴 To sort lists we can use _sort()_ method or _sorted()_ built-in functions. The _sort()_ method reorders the list items in ascending order and modifies the original list. If an argument of _sort()_ method reverse is equal to true, it will arrange the list in descending order.
+🟡 To sort lists we can use _sort()_ method or _sorted()_ built-in functions. The _sort()_ method reorders the list items in ascending order and modifies the original list. If an argument of _sort()_ method reverse is equal to true, it will arrange the list in descending order.
 
 🟡 - sort(): this method modifies the original list
 
@@ -496,7 +496,7 @@ print(ages) # 🟡 [24, 25, 24, 26, 25, 24, 19, 22]
   lst.sort(reverse=True)    # 🟡 descending
   ```
 
-  🔴 **Example:**
+  🟡 **Example:**
 
   ```py
   fruits = ['banana', 'orange', 'mango', 'lemon']  # 🟡
@@ -512,8 +512,8 @@ print(ages) # 🟡 [24, 25, 24, 26, 25, 24, 19, 22]
   print(ages) # 🟡 [26, 25, 25, 24, 24, 24, 22, 19]
   ```
 
-🔴   sorted(): returns the ordered list without modifying the original list
-  🔴 **Example:**
+🟡   sorted(): returns the ordered list without modifying the original list
+  🟡 **Example:**
 
   ```py
   fruits = ['banana', 'orange', 'mango', 'lemon']  # 🟡

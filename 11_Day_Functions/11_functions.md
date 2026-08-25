@@ -206,7 +206,7 @@ def function_name(para1, para2):  # 🟡
 print(function_name(para1 = 'John', para2 = 'Doe')) # 🟡 the order of arguments does not matter here
 ```
 
-🔴 **Example:**
+🟡 **Example:**
 
 ```py
 def print_fullname(firstname, lastname):  # 🟡
@@ -226,7 +226,7 @@ print(add_two_numbers(num2 = 3, num1 = 2)) # 🟡 Order does not matter
 If we do not return a value with a function, then our function is returning _None_ by default. To return a value with a function we use the keyword _return_ followed by the variable we are returning. We can return any kind of data types from a function.
 
 🟡 - Returning a string:
-🔴 **Example:**
+🟡 **Example:**
 
 ```py
 def print_name(firstname):  # 🟡
@@ -242,7 +242,7 @@ print_full_name(firstname='Asabeneh', lastname='Yetayeh')  # 🟡
 
 🟡 - Returning a number:
 
-🔴 **Example:**
+🟡 **Example:**
 
 ```py
 def add_two_numbers (num1, num2):  # 🟡
@@ -257,7 +257,7 @@ print('Age: ', calculate_age(2019, 1819))  # 🟡
 ```
 
 🟡 - Returning a boolean:
-  🔴 **Example:**
+  🟡 **Example:**
 
 ```py
 def is_even (n):  # 🟡
@@ -269,7 +269,7 @@ print(is_even(7)) # 🟡 False
 ```
 
 🟡 - Returning a list:
-  🔴 **Example:**
+  🟡 **Example:**
 
 ```py
 def find_even_numbers(n):  # 🟡
@@ -296,7 +296,7 @@ function_name()  # 🟡
 function_name(arg)  # 🟡
 ```
 
-🔴 **Example:**
+🟡 **Example:**
 
 ```py
 def greetings (name = 'Peter'):  # 🟡
@@ -339,7 +339,7 @@ def function_name(*args):  # 🟡
 function_name(param1, param2, param3,..)  # 🟡
 ```
 
-🔴 **Example:**
+🟡 **Example:**
 
 ```py
 def sum_all_nums(*nums):  # 🟡
