@@ -6,6 +6,9 @@ Les 30 jours sont le guide original **mot pour mot** ; seuls des emojis ont ét�
 ## Modules prédéfinis au programme (3AS)
 Le programme dit « utiliser des modules prédéfinis » sans les nommer ; en classe : `random` (jeux/simulations) et `math` (sqrt…). Le guide couvre `random` (Jour 12) ; `math` n'y figure pas → doc officielle Python. os/sys/statistics = 🟡 bonus.
 
+## Règle des icônes d'exercice
+L'icône d'un exercice suit la partie qu'il teste : bases du programme (variables, opérateurs // et %, **, len, indexation, boucles, fonctions, random) = ✅ · méthodes de chaînes/listes hors leçons = 🟡 · slicing, indexation négative, formatage, dicts/tuples, fichiers = 🔴.
+
 ## Légende
 - ✅ = exercice au programme · *(rien)* = contenu au programme
 - 🟡 = bonus facultatif — peut t'aider, ne blesse jamais

@@ -421,13 +421,13 @@ Now it is time to express your thoughts about the Author and 30DaysOfPython. You
 
 1. Declare a function _add_two_numbers_. It takes two parameters and it returns a sum. ✅
 2. Area of a circle is calculated as follows: area = π x r x r. Write a function that calculates _area_of_circle_. ✅
-3. Write a function called add_all_nums which takes arbitrary number of arguments and sums all the arguments. Check if all the list items are number types. If not do give a reasonable feedback. ✅
+3. Write a function called add_all_nums which takes arbitrary number of arguments and sums all the arguments. Check if all the list items are number types. If not do give a reasonable feedback. 🟡
 4. Temperature in °C can be converted to °F using this formula: °F = (°C x 9/5) + 32. Write a function which converts °C to °F, _convert_celsius_to-fahrenheit_. ✅
 5. Write a function called check-season, it takes a month parameter and returns the season: Autumn, Winter, Spring or Summer. ✅
 6. Write a function called calculate_slope which return the slope of a linear equation ✅
 7. Quadratic equation is calculated as follows: ax² + bx + c = 0. Write a function which calculates solution set of a quadratic equation, _solve_quadratic_eqn_. ✅
 8. Declare a function named print_list. It takes a list as a parameter and it prints out each element of the list. ✅
-9. Declare a function named reverse_list. It takes an array as a parameter and it returns the reverse of the array (use loops). 🟡
+9. Declare a function named reverse_list. It takes an array as a parameter and it returns the reverse of the array (use loops).  ✅
 
 ```py
 print(reverse_list([1, 2, 3, 4, 5]))
@@ -480,7 +480,7 @@ print(sum_of_numbers(100)) # 5050
 1. Call your function factorial, it takes a whole number as a parameter and it return a factorial of the number ✅
 1. Call your function _is_empty_, it takes a parameter and it checks if it is empty or not ✅
 1. Write different functions which take lists. They should calculate_mean, calculate_median, calculate_mode, calculate_range, calculate_variance, calculate_std (standard deviation). ✅
-1. Write a function called _greet_ which takes a default argument, _name_. If no argument is supplied it should print "Hello, Guest!", otherwise it should greet the person by name. ✅
+1. Write a function called _greet_ which takes a default argument, _name_. If no argument is supplied it should print "Hello, Guest!", otherwise it should greet the person by name. 🟡
 
 ```py
     greet()
@@ -488,7 +488,7 @@ print(sum_of_numbers(100)) # 5050
     greet("Alice")
     # "Hello, Alice!"
 ```
-1. Create a function called _show_args_ to take an arbitrary number of named arguments and print their names and values. ✅
+1. Create a function called _show_args_ to take an arbitrary number of named arguments and print their names and values. 🟡
    ```py
    show_args(name="Alice", age=30, city="New York")
    # Received: name: Alice, age: 30, city: New York
@@ -503,7 +503,7 @@ print(sum_of_numbers(100)) # 5050
 1. Write a functions which checks if all items are unique in the list. ✅
 1. Write a function which checks if all the items of the list are of the same data type. ✅
 1. Write a function which check if provided variable is a valid python variable ✅
-1. Go to the data folder and access the countries-data.py file. ✅
+1. Go to the data folder and access the countries-data.py file. 🔴
 
 - Create a function called the most_spoken_languages in the world. It should return 10 or 20 most spoken languages in the world in descending order
 - Create a function called the most_populated_countries. It should return 10 or 20 most populated countries in descending order.
