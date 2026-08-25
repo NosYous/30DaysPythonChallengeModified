@@ -36,7 +36,8 @@ L'icône d'un exercice suit la partie qu'il teste : bases du programme (variable
 | 10 | Boucles | ✅ progressive | 2AS→3AS |
 | 11 | Fonctions (modules) | ✅ | 3AS |
 | 12 | Modules prédéfinis | ✅ (`random`) · 🟡 os/sys/statistics | 3AS |
-| 13–29 | le reste | 🔴 | — |
+| 13–14, 16–29 | le reste | 🔴 | — |
+| 15 | Erreurs Python | ✅ unmarked à part — tu les rencontreras en codant quoi qu'il arrive ; savoir les lire est un survival skill | — |
 | 30 | Conclusion | ℹ️ | — |
 
 ## Ce que ce guide ne couvre pas (à travailler à part)
