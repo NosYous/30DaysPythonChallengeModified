@@ -505,8 +505,8 @@ print(sum_of_numbers(100)) # 5050
 1. Write a function which check if provided variable is a valid python variable ✅
 1. Go to the data folder and access the countries-data.py file. 🔴
 
-- Create a function called the most_spoken_languages in the world. It should return 10 or 20 most spoken languages in the world in descending order
-- Create a function called the most_populated_countries. It should return 10 or 20 most populated countries in descending order.
+- Create a function called the most_spoken_languages in the world. It should return 10 or 20 most spoken languages in the world in descending order 🔴
+- Create a function called the most_populated_countries. It should return 10 or 20 most populated countries in descending order. 🔴
 
 🎉 CONGRATULATIONS ! 🎉
 
