@@ -56,7 +56,7 @@ Assignment operators are used to assign values to variables. Let us take = as an
 - Division(/): a / b
 - Modulus(%): a % b
 - Floor division(//): a // b
-- 🟡 Exponentiation(**): a ** b
+- Exponentiation(**): a ** b
 
 ![Arithmetic Operators](../images/arithmetic_operators.png)
 
@@ -75,7 +75,7 @@ print('Division: ', 7 / 2)        # 3.5
 print('Division without the remainder: ', 7 // 2)   # 3,  gives without the floating number or without the remaining
 print ('Division without the remainder: ',7 // 3)   # 2
 print('Modulus: ', 3 % 2)         # 1, Gives the remainder
-print('Exponentiation: ', 2 ** 3) # 🟡 8 it means 2 * 2 * 2
+print('Exponentiation: ', 2 ** 3) # 8 it means 2 * 2 * 2
 ```
 
 **Example:Floats**
