@@ -7,13 +7,15 @@ Les 30 jours sont le guide original **mot pour mot** ; seuls des emojis ont ét�
 Le programme dit « utiliser des modules prédéfinis » sans les nommer ; en classe : `random` (jeux/simulations) et `math` (sqrt…). Le guide couvre `random` (Jour 12) ; `math` n'y figure pas → doc officielle Python. os/sys/statistics = 🟡 bonus.
 
 ## Règle des icônes d'exercice
-L'icône d'un exercice suit la partie qu'il teste : bases du programme (variables, opérateurs // et %, **, len, indexation, boucles, fonctions, random) = ✅ · méthodes de chaînes/listes hors leçons = 🟡 · slicing, indexation négative, formatage, dicts/tuples, fichiers = 🔴.
+L'icône d'un exercice suit la partie qu'il teste : bases du programme (variables, opérateurs // et %, **, len, indexation, boucles, fonctions, random) = ✅ · exercice d'algorithme (boucles/conditions à écrire) = ⚙️ · méthode/builtin hors programme = 🟡 · choix algorithme OU méthode = ⚙️🟡 · slicing, indexation négative, formatage, dicts/tuples, fichiers = 🔴.
 
 ## Légende
-- ✅ = exercice au programme · *(rien)* = contenu au programme
-- 🟡 = bonus facultatif — peut t'aider, ne blesse jamais
-- 🔴 = hors programme / interdit en examen — sache que ça existe, n'emploie pas en devoir
-
+- *(rien)* = contenu au programme
+- ✅ = exercice au programme, basique (syntaxe/opérateurs/boucle simple)
+- ⚙️ = exercice d'algorithme — faut écrire la logique toi-même (boucles/conditions/indexation)
+- 🟡 = bonus — méthode/builtin hors programme mais toléré
+- 🔴 = hors programme / interdit en examen
+- ⚙️🟡 = algorithme ET probablement une méthode (tu peux faire les deux, le choix est ouvert)
 ## Règles d'examen
 1. 🔴 `break` est interdit par le programme officiel. Conçois des conditions d'arrêt propres.
 2. Tris et recherches **codés à la main** (tri à bulles 3AS ; sélection + insertion 4AS ; recherche séquentielle puis dichotomique). `.sort()` sur un exercice de tri ≈ 0.

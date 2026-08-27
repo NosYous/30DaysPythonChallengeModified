@@ -551,8 +551,8 @@ print(challenge.startswith('thirty')) # 🟡 False
 15. What is the character at index 0 in the string _Coding For All_. ✅
 16. What is the last index of the string _Coding For All_. ✅
 17. What character is at index 10 in "Coding For All" string. ✅
-18. Create an acronym or an abbreviation for the name 'Python For Everyone'. ✅
-19. Create an acronym or an abbreviation for the name 'Coding For All'. ✅
+18. Create an acronym or an abbreviation for the name 'Python For Everyone'. ⚙️🟡
+19. Create an acronym or an abbreviation for the name 'Coding For All'. ⚙️🟡
 20. Use index to determine the position of the first occurrence of C in Coding For All. 🟡
 21. Use index to determine the position of the first occurrence of F in Coding For All. 🟡
 22. Use rfind to determine the position of the last occurrence of l in Coding For All People. 🟡
@@ -561,8 +561,8 @@ print(challenge.startswith('thirty')) # 🟡 False
 25. Slice out the phrase 'because because because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction' 🔴
 26. Find the position of the first occurrence of the word 'because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction' 🟡
 27. Slice out the phrase 'because because because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction' 🔴
-28. Does 'Coding For All' start with a substring _Coding_? ✅
-29. Does 'Coding For All' end with a substring _coding_? ✅
+28. Does 'Coding For All' start with a substring _Coding_? ⚙️🟡
+29. Does 'Coding For All' end with a substring _coding_? ⚙️🟡
 30. '&nbsp;&nbsp; Coding For All &nbsp;&nbsp;&nbsp; &nbsp;' &nbsp;, remove the left and right trailing spaces in the given string. 🟡
 31. Which one of the following variables return True when we use the method isidentifier(): 🟡
     - 30DaysOfPython
